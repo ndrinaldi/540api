@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "resourceType": "string",
+    "responseTime": 0,
+  },
+
+  "services": {
+    "id": 0,
+    "title": "string",
+    "description": "string",
+  },
+
+  "projects": {
+    "id": 0,
+    "project_type": "string",
+    "image_path": "string",
+    "preview_path": "string",
+    "title": "string",
+    "type": "string",
+    "header": "string",
+    "description": "string",
+    "quote": "string",
+    "notes": "string",
+    "date": "string",
+    "client": "string",
+    "category": "string",
+    "relevant_paths": [{
+      "name": "string",
+      "path": "string"
+    }],
+  },
+
+  "team_members": {
+    "id": 0,
+    "image_path": "string",
+    "name": "string",
+    "position": "string",
+    "member_path": "string",
+    "twitter_path": "string",
+    "facebook_path": "string",
+    "linkedin_path": "string",
+    "github_path": "string",
+    "expertise":"string",
+    "interests":"string",
+    "qa": [{
+        "question":"string",
+        "answer": "string",
+      }],
+    "fun_facts":["string"]
+  },
+
+  "clients": {
+    "id": 0,
+    "icon_path": "string",
+    "name": "string",
+    "client_path": "string",
+  },
+
+  "contract_vehicles": {
+    "id": 0,
+    "name": "string",
+    "description": "string",
+    "contract_path": "string",
+  },
+
+  "partners": {
+    "id": 0,
+    "icon_path": "string",
+    "name": "string",
+    "partner_path": "string",
+  },
+
+  "jobs": {
+    "images":["string"],
+    "life_list":["string"],
+    "perk_list":["string"]
+  },
+
+  "config": {
+    "apigeeRevokeUrl":"string",
+    "helpDeskPhone": "string",
+    "helpDeskEmail": "string",
+    "baseBaasUrl": "string",
+    "swaggerSpecUrl": "string",
+    "baseDamirProxyUrl": "string"
+  },
+}

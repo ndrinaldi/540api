@@ -1,0 +1,78 @@
+service: aws-nodejs
+
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:*:*"
+
+
+functions:
+  services_post:
+    handler: functions/services.post
+    events:
+      - http:
+          path: services
+          method: post
+          cors: true
+
+  services_get:
+    handler: functions/services.list
+    events:
+      - http:
+          path: services
+          method: get
+          cors: true
+
+  services_get_instance:
+    handler: functions/services.get
+    events:
+      - http:
+          path: services/{id}
+          method: get
+          cors: true
+
+  services_put:
+    handler: functions/services.put
+    events:
+      - http:
+          path: services/{id}
+          method: put
+          cors: true
+
+  services_delete:
+    handler: functions/services.delete
+    events:
+      - http:
+          path: services/{id}
+          method: delete
+          cors: true
+
+resources:
+  Resources:
+    Services:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType:  N
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: Services

@@ -1,0 +1,905 @@
+swagger:                      '2.0'
+info:
+  version:                    1.0.0
+  title:                      www-540 APIs
+  description:                >-
+    APIs useful for populating the 540 website, as well as providing contact
+    information and links to relevant cites.
+schemes:
+  - https
+host:                         temp
+basePath:                     /v1
+paths:
+#========================================= SERVICES ===============================================#
+  /services:
+    get:
+      description:            Returns a list of all services.
+      responses:
+        '200':
+          $ref:               '#/responses/services200'
+
+    post:
+      description:            Adds a new service to the services list.
+      parameters:
+        - $ref:               '#/parameters/service'
+      responses:
+        '201':
+          $ref:               '#/responses/services201'
+        '400':
+          $ref:               '#/responses/services400'
+        '500':
+          $ref:               '#/responses/gen500'
+
+  '/services/{id}':
+    get_instance:
+      description:            Return a service by its id.
+      parameters:
+        - $ref:               '#/parameters/services_id'
+      responses:
+        '200':
+          $ref:               '#/responses/services200'
+        '404':
+          $ref:               '#/responses/services404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    post_instance:
+      description:            Replace an exsisting service with a new service of the same id.
+      parameters:
+        - $ref:               '#/parameters/services_id'
+        - $ref:               '#/parameters/service'
+      responses:
+        '201':
+          $ref:               '#/responses/services201'
+        '400':
+          $ref:               '#/responses/services400'
+        '404':
+          $ref:               '#/responses/services404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    patch:
+      description:            Change an element of an exsiting service by id.
+      parameters:
+        - $ref:               '#/parameters/services_id'
+        - $ref:               '#/parameters/service'
+      responses:
+        '200':
+          $ref:               '#/responses/services200'
+        '400':
+          $ref:               '#/responses/services400'
+        '404':
+          $ref:               '#/responses/services404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    delete:
+      description:            Delete an exsisting service.
+      parameters:
+        - $ref:               '#/parameters/services_id'
+      responses:
+        '200':
+          $ref:               '#/responses/services200'
+        '400':
+          $ref:               '#/responses/services400'
+        '404':
+          $ref:               '#/responses/services404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+#========================================== PROJECTS ===============================================#
+  /projects:
+    get:
+      description:            Returns a list of all projects.
+      responses:
+        '200':
+          $ref:               '#/responses/projects200'
+
+    post:
+      description:            Adds new project to the projects list.
+      parameters:
+        - $ref:               '#/parameters/project'
+      responses:
+        '201':
+          $ref:               '#/responses/projects201'
+        '400':
+          $ref:               '#/responses/projects400'
+        '500':
+          $ref:               '#/responses/gen500'
+
+  '/projects/{id}':
+    get:
+      description:            Return a project by its id.
+      parameters:
+        - $ref:               '#/parameters/projects_id'
+      responses:
+        '200':
+          $ref:               '#/responses/projects200'
+        '404':
+          $ref:               '#/responses/projects404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    post:
+      description:            Replace an exsisting project with a new project of the same id.
+      parameters:
+        - $ref:               '#/parameters/projects_id'
+        - $ref:               '#/parameters/project'
+      responses:
+        '201':
+          $ref:               '#/responses/projects201'
+        '400':
+          $ref:               '#/responses/projects400'
+        '404':
+          $ref:               '#/responses/projects404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    patch:
+      description:            Change an element of an exsiting project by id.
+      parameters:
+        - $ref:               '#/parameters/projects_id'
+        - $ref:               '#/parameters/service'
+      responses:
+        '200':
+          $ref:               '#/responses/projects200'
+        '400':
+          $ref:               '#/responses/projects400'
+        '404':
+          $ref:               '#/responses/projects404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    delete:
+      description:            Delete an exsisting project.
+      parameters:
+        - $ref:               '#/parameters/projects_id'
+      responses:
+        '200':
+          $ref:               '#/responses/projects200'
+        '400':
+          $ref:               '#/responses/projects400'
+        '404':
+          $ref:               '#/responses/projects404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+#====================================== TEAM_MEMEBERS ===============================================#
+  /team_members:
+    get:
+      description:            Returns a list of all team_members.
+      responses:
+        '200':
+          $ref:               '#/responses/team_members200'
+
+    post:
+      description:            Adds new team_member to the team members list.
+      parameters:
+        - $ref:               '#/parameters/team_member'
+      responses:
+        '201':
+          $ref:               '#/responses/team_members201'
+        '400':
+          $ref:               '#/responses/team_members400'
+        '500':
+          $ref:               '#/responses/gen500'
+
+  '/team_members/{id}':
+    get:
+      description:            Return a team member by its id.
+      parameters:
+        - $ref:               '#/parameters/team_members_id'
+      responses:
+        '200':
+          $ref:               '#/responses/team_members200'
+        '404':
+          $ref:               '#/responses/team_members404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    post:
+      description:            Replace an exsisting team_member with a new team member of the same id.
+      parameters:
+        - $ref:               '#/parameters/team_members_id'
+        - $ref:               '#/parameters/team_member'
+      responses:
+        '201':
+          $ref:               '#/responses/team_members201'
+        '400':
+          $ref:               '#/responses/team_members400'
+        '404':
+          $ref:               '#/responses/team_members404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    patch:
+      description:            Change an element of an exsiting team member by id.
+      parameters:
+        - $ref:               '#/parameters/team_members_id'
+        - $ref:               '#/parameters/service'
+      responses:
+        '200':
+          $ref:               '#/responses/team_members200'
+        '400':
+          $ref:               '#/responses/team_members400'
+        '404':
+          $ref:               '#/responses/team_members404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    delete:
+      description:            Delete an exsisting team member.
+      parameters:
+        - $ref:               '#/parameters/team_members_id'
+      responses:
+        '200':
+          $ref:               '#/responses/team_members200'
+        '400':
+          $ref:               '#/responses/team_members400'
+        '404':
+          $ref:               '#/responses/team_members404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+#====================================== CLIENTS ===============================================#
+  /clients:
+    get:
+      description:            Returns a list of all clients.
+      responses:
+        '200':
+          $ref:               '#/responses/clients200'
+
+    post:
+      description:            Adds new client to the client list.
+      parameters:
+        - $ref:               '#/parameters/client'
+      responses:
+        '201':
+          $ref:               '#/responses/clients201'
+        '400':
+          $ref:               '#/responses/clients400'
+        '500':
+          $ref:               '#/responses/gen500'
+
+  '/clients/{id}':
+    get:
+      description:            Return a client by its id.
+      parameters:
+        - $ref:               '#/parameters/clients_id'
+      responses:
+        '200':
+          $ref:               '#/responses/clients200'
+        '404':
+          $ref:               '#/responses/clients404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    post:
+      description:            Replace an exsisting client with a new client of the same id.
+      parameters:
+        - $ref:               '#/parameters/clients_id'
+        - $ref:               '#/parameters/client'
+      responses:
+        '201':
+          $ref:               '#/responses/clients201'
+        '400':
+          $ref:               '#/responses/clients400'
+        '404':
+          $ref:               '#/responses/clients404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    patch:
+      description:            Change an element of an exsiting client by id.
+      parameters:
+        - $ref:               '#/parameters/clients_id'
+        - $ref:               '#/parameters/service'
+      responses:
+        '200':
+          $ref:               '#/responses/clients200'
+        '400':
+          $ref:               '#/responses/clients400'
+        '404':
+          $ref:               '#/responses/clients404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    delete:
+      description:            Delete an exsisting client.
+      parameters:
+        - $ref:               '#/parameters/clients_id'
+      responses:
+        '200':
+          $ref:               '#/responses/clients200'
+        '400':
+          $ref:               '#/responses/clients400'
+        '404':
+          $ref:               '#/responses/clients404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+#=============================== CONTRACT VEHICLES ===============================================#
+  /contract_vehicles:
+    get:
+      description:            Returns a list of all contract vehicles.
+      responses:
+        '200':
+          $ref:               '#/responses/contract_vehicles200'
+
+    post:
+      description:            Adds new contract vehicle to the contract vehicle list.
+      parameters:
+        - $ref:               '#/parameters/contract_vehicle'
+      responses:
+        '201':
+          $ref:               '#/responses/contract_vehicles201'
+        '400':
+          $ref:               '#/responses/contract_vehicles400'
+        '500':
+          $ref:               '#/responses/gen500'
+
+  '/contract_vehicles/{id}':
+    get:
+      description:            Return a contract vehicle by its id.
+      parameters:
+        - $ref:               '#/parameters/contract_vehicles_id'
+      responses:
+        '200':
+          $ref:               '#/responses/contract_vehicles200'
+        '404':
+          $ref:               '#/responses/contract_vehicles404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    post:
+      description:            Replace an exsisting contract_ ehicle with a new contract vehicle of the same id.
+      parameters:
+        - $ref:               '#/parameters/contract_vehicles_id'
+        - $ref:               '#/parameters/contract_vehicle'
+      responses:
+        '201':
+          $ref:               '#/responses/contract_vehicles201'
+        '400':
+          $ref:               '#/responses/contract_vehicles400'
+        '404':
+          $ref:               '#/responses/contract_vehicles404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    patch:
+      description:            Change an element of an exsiting contract vehicle by id.
+      parameters:
+        - $ref:               '#/parameters/contract_vehicles_id'
+        - $ref:               '#/parameters/service'
+      responses:
+        '200':
+          $ref:               '#/responses/contract_vehicles200'
+        '400':
+          $ref:               '#/responses/contract_vehicles400'
+        '404':
+          $ref:               '#/responses/contract_vehicles404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    delete:
+      description:            Delete an exsisting contract_vehicle.
+      parameters:
+        - $ref:               '#/parameters/contract_vehicles_id'
+      responses:
+        '200':
+          $ref:               '#/responses/contract_vehicles200'
+        '400':
+          $ref:               '#/responses/contract_vehicles400'
+        '404':
+          $ref:               '#/responses/contract_vehicles404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+#=============================== PARTNERS ===============================================#
+  /partners:
+    get:
+      description:            Returns a list of all partners.
+      responses:
+        '200':
+          $ref:               '#/responses/partners200'
+
+    post:
+      description:            Adds new partner to the partner list.
+      parameters:
+        - $ref:               '#/parameters/partner'
+      responses:
+        '201':
+          $ref:               '#/responses/partners201'
+        '400':
+          $ref:               '#/responses/partners400'
+        '500':
+          $ref:               '#/responses/gen500'
+
+  '/partners/{id}':
+    get:
+      description:            Return a partner by its id.
+      parameters:
+        - $ref:               '#/parameters/partners_id'
+      responses:
+        '200':
+          $ref:               '#/responses/partners200'
+        '404':
+          $ref:               '#/responses/partners404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    post:
+      description:            Replace an exsisting partner with a new partner of the same id.
+      parameters:
+        - $ref:               '#/parameters/partners_id'
+        - $ref:               '#/parameters/partner'
+      responses:
+        '201':
+          $ref:               '#/responses/partners201'
+        '400':
+          $ref:               '#/responses/partners400'
+        '404':
+          $ref:               '#/responses/partners404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    patch:
+      description:            Change an element of an exsiting partner by id.
+      parameters:
+        - $ref:               '#/parameters/partners_id'
+        - $ref:               '#/parameters/partner'
+      responses:
+        '200':
+          $ref:               '#/responses/partners200'
+        '400':
+          $ref:               '#/responses/partners400'
+        '404':
+          $ref:               '#/responses/partners404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+    delete:
+      description:            Delete an exsisting partner.
+      parameters:
+        - $ref:               '#/parameters/partners_id'
+      responses:
+        '200':
+          $ref:               '#/responses/partners200'
+        '400':
+          $ref:               '#/responses/partners400'
+        '404':
+          $ref:               '#/responses/partners404'
+        '500':
+          $ref:               '#/responses/gen500'
+
+#=============================== JOBS ===============================================#
+  '/jobs':
+    get:
+      description:              Return the jobs object.
+      parameters:
+        - $ref:                 '#/parameters/jobs'
+      responses:
+        '200':
+          $ref:                 '#/responses/jobs200'
+        '500':
+          $ref:                 '#/responses/gen500'
+
+    post:
+      description:              Replace the exsisting jobs.
+      parameters:
+        - $ref:                 '#/parameters/jobs'
+      responses:
+        '201':
+          $ref:                 '#/responses/jobs201'
+        '400':
+          $ref:                 '#/responses/jobs400'
+        '500':
+          $ref:                 '#/responses/gen500'
+
+    patch:
+      description:              Change an element of jobs.
+      parameters:
+        - $ref:                 '#/parameters/jobs'
+      responses:
+        '200':
+          $ref:                 '#/responses/jobs200'
+        '400':
+          $ref:                 '#/responses/jobs400'
+        '500':
+          $ref:                 '#/responses/gen500'
+
+    delete:
+      description:              Delete jobs.
+      parameters:
+        - $ref:                 '#/parameters/jobs'
+      responses:
+        '200':
+          $ref:                 '#/responses/jobs200'
+        '400':
+          $ref:                 '#/responses/jobs400'
+        '500':
+          $ref:                 '#/responses/gen500'
+
+
+
+#//////////////////////////////////////// DEFINTITIONS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\#
+definitions:
+
+  service:
+    properties:
+      id:
+        type:                 integer
+      title:
+        type:                 string
+      description:
+        type:                 string
+
+  services:
+    type:                     array
+    items:
+      $ref:                   '#/definitions/service'
+
+  project:
+    properties:
+      id:
+        type:                 integer
+      project_type:
+        type:                 string
+      image_path:
+        type:                 string
+      preview_path:
+        type:                 string
+      title:
+        type:                 string
+      type:
+        type:                 string
+      header:
+        type:                 string
+      description:
+        type:                 string
+      quote:
+        type:                 string
+      notes:
+        type:                 string
+      date:
+        type:                 string
+      client:
+        type:                 string
+      category:
+        type:                 string
+      relevant_paths:
+        type:                 array
+        items:
+          $ref:               "#/definitions/relevant_path"
+
+  relevant_path:
+    properties:
+      name:
+        type:                 string
+      path:
+        type:                 string
+
+  projects:
+    type:                     array
+    items:
+      $ref:                   '#/definitions/project'
+
+  team_member:
+    properties:
+      id:
+        type:                 integer
+      image_path:
+        type:                 string
+      name:
+        type:                 string
+      position:
+        type:                 string
+      member_path:
+        type:                 string
+      twitter_path:
+        type:                 string
+      facebook_path:
+        type:                 string
+      linkedin_path:
+        type:                 string
+      github_path:
+        type:                 string
+      expertise:
+        type:                 string
+      interests:
+        type:                 string
+      qa:
+        type:                 array
+        items:
+          $ref:               "#/definitions/qa_object"
+      fun_facts:
+        type:                 array
+        items:
+          type:               string
+
+  qa_object:
+    properties:
+      question:
+        type:                 string
+      answer:
+        type:                 string
+
+  team_members:
+    type:                     array
+    items:
+      $ref:                   '#/definitions/team_member'
+
+  client:
+    properties:
+      id:
+        type:                 integer
+      icon_path:
+        type:                 string
+      name:
+        type:                 string
+      client_path:
+        type:                 string
+
+  clients:
+    type:                     array
+    items:
+      $ref:                   '#/definitions/client'
+
+  contract_vehicle:
+    properties:
+      id:
+        type:                 integer
+      name:
+        type:                 string
+      description:
+        type:                 string
+      contract_path:
+        type:                 string
+
+
+  contract_vehicles:
+    type:                     array
+    items:
+      $ref:                   '#/definitions/contract_vehicle'
+
+  partner:
+    properties:
+      id:
+        type:                 integer
+      icon_path:
+        type:                 string
+      name:
+        type:                 string
+      partner_path:
+        type:                 string
+
+  partners:
+    type:                     array
+    items:
+      $ref:                   '#/definitions/partner'
+
+  jobs:
+    properties:
+      images:
+        type:                 array
+        items:
+          type:               string
+      life_list:
+        type:                 array
+        items:
+          type:               string
+      perk_list:
+        type:                 array
+        items:
+          type:               string
+
+  Error:
+    properties:
+      code:
+        type:                 string
+      message:
+        type:                 string
+
+#//////////////////////////////////////// RESPONSES \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\#
+responses:
+
+  gen500:
+    description:              An unexpected error occurred.
+    schema:
+      $ref:                   '#/definitions/Error'
+
+  services200:
+    description:              Successful.
+    schema:
+      $ref:                   '#/definitions/services'
+
+  services201:
+    description:              Service was successfully created.
+
+  services400:
+    description:              Service was not created.
+
+  services404:
+    description:              Service not found.
+
+  projects200:
+    description:              Successful.
+    schema:
+      $ref:                   '#/definitions/projects'
+
+  projects201:
+    description:              Project was successfully created.
+
+  projects400:
+    description:              Project was not created.
+
+  projects404:
+    description:              Project not found.
+
+  team_members200:
+    description:              Successful.
+    schema:
+      $ref:                   '#/definitions/team_members'
+
+  team_members201:
+    description:              Team Member was successfully created.
+
+  team_members400:
+    description:              Team Member was not created.
+
+  team_members404:
+    description:              Team Member not found.
+
+  clients200:
+    description:              Successful.
+    schema:
+      $ref:                   '#/definitions/clients'
+
+  clients201:
+    description:              Client was successfully created.
+
+  clients400:
+    description:              Client was not created.
+
+  clients404:
+    description:              Client not found.
+
+  contract_vehicles200:
+    description:              Successful.
+    schema:
+      $ref:                   '#/definitions/contract_vehicles'
+
+  contract_vehicles201:
+    description:              Contractor was successfully created.
+
+  contract_vehicles400:
+    description:              Contractor was not created.
+
+  contract_vehicles404:
+    description:              Contarctor not found.
+
+  partners200:
+    description:              Successful.
+    schema:
+      $ref:                   '#/definitions/partners'
+
+  partners201:
+    description:              Partner was successfully created.
+
+  partners400:
+    description:              Partner was not created.
+
+  partners404:
+    description:              Partner not found.
+
+  jobs200:
+    description:              Successful.
+    schema:
+      $ref:                   '#/definitions/jobs'
+
+  jobs201:
+    description:              jobs was successfully created.
+
+  jobs400:
+    description:              jobs was not created.
+
+#//////////////////////////////////////// PARAMETERS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\#
+parameters:
+
+  service:
+    name:                     service
+    in:                       body
+    required:                 true
+    description:              The service object in a json file.
+    schema:
+      $ref:                   '#/definitions/service'
+
+  services_id:
+    name:                     id
+    in:                       path
+    required:                 true
+    description:              The service's id.
+    type:                     string
+
+  project:
+    name:                     project
+    in:                       body
+    required:                 true
+    description:              The project object in a json file.
+    schema:
+      $ref:                   '#/definitions/project'
+
+  projects_id:
+    name:                     id
+    in:                       path
+    required:                 true
+    description:              The project's id.
+    type:                     string
+
+  team_member:
+    name:                     team_member
+    in:                       body
+    required:                 true
+    description:              The team member object in a json file.
+    schema:
+      $ref:                   '#/definitions/team_member'
+
+  team_members_id:
+    name:                     id
+    in:                       path
+    required:                 true
+    description:              The team member's id.
+    type:                     string
+
+  client:
+    name:                     client
+    in:                       body
+    required:                 true
+    description:              The client object in a json file
+    schema:
+      $ref:                   '#/definitions/client'
+
+  clients_id:
+    name:                     id
+    in:                       path
+    required:                 true
+    description:              The client's id.
+    type:                     string
+
+  contract_vehicle:
+    name:                     contract_vehicle
+    in:                       body
+    required:                 true
+    description:              The contact vehicle object in a json file
+    schema:
+      $ref:                   '#/definitions/contract_vehicle'
+
+  contract_vehicles_id:
+    name:                     id
+    in:                       path
+    required:                 true
+    description:              The contact vehicle's id.
+    type:                     string
+
+  partner:
+    name:                     partner
+    in:                       body
+    required:                 true
+    description:              The partner object in a json file
+    schema:
+      $ref:                   '#/definitions/partner'
+
+  partners_id:
+    name:                     id
+    in:                       path
+    required:                 true
+    description:              The partner's id.
+    type:                     string
+
+  jobs:
+    name:                     jobs
+    in:                       body
+    required:                 true
+    description:              The jobs object in a json file
+    schema:
+      $ref:                   '#/definitions/jobs'
