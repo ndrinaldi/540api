@@ -50,6 +50,14 @@ functions:
           method: put
           cors: true
 
+  services_patch:
+    handler: functions/services.patch
+    events:
+      - http:
+          path: services/{id}
+          method: patch
+          cors: true
+
   services_delete:
     handler: functions/services.delete
     events:

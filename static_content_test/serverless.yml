@@ -30,7 +30,7 @@ provider:
         - dynamodb:PutItem
         - dynamodb:UpdateItem
         - dynamodb:DeleteItem
-      Resource: "arn:aws:dynamodb:*:*"
+      Resource: "arn:aws:dynamodb:us-east-1:*:*"
 
 
 # you can overwrite defaults here
@@ -82,6 +82,14 @@ functions:
 
   team_members_get:
     handler: functions/team_members/get.get
+    events:
+      - http:
+          path: team_members/{id}
+          method: get
+          cors: true
+
+  team_members_put:
+    handler: functions/team_members/put.put
     events:
       - http:
           path: team_members/{id}
