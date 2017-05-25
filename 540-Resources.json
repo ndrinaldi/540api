@@ -80,7 +80,7 @@
     "date": "July 2014",
     "client": "DPAP",
     "category": "Software Development",
-    "relevant_paths": [],
+    "relevant_paths": []
   },
 
   "projects": {
@@ -99,7 +99,7 @@
     "category": "Software Development | APIs",
     "relevant_paths": [{
       "name": "www.psctool.us",
-      "path": "https://www.psctool.us/",
+      "path": "https://www.psctool.us/"
     }],
   },
 
@@ -116,13 +116,13 @@
     ",
     "quote": "Whether you call it a common operating picture, management report or dashboard, everyone visualizes data differently, often sharing common data resources. FedAPI focuses on indexing common data resources so you don't have to.",
     "notes": "You can start indexing data at www.fedapi.io",
-    "date": "",
-    "client": "",
-    "category": "",
+    "date": "null",
+    "client": "null",
+    "category": "null",
     "relevant_paths": [{
       "name": "www.fedapi.io",
       "path": "https://fedapi.io/www/"
-    }],
+    }]
   },
 
   "projects": {
@@ -134,11 +134,11 @@
     "type": "Applicaton",
     "header": "Application for Analyst",
     "description": "More to come...please check back another time for more info.",
-    "quote": "",
-    "notes": "",
-    "date": "",
-    "client": "",
-    "category": "",
+    "quote": "null",
+    "notes": "null",
+    "date": "null",
+    "client": "null",
+    "category": "null",
     "relevant_paths": [],
   },
 
@@ -151,11 +151,11 @@
     "type": "Application",
     "header": "Application",
     "description": "Drug Reactions Explained (DRE) provides clear definitions to complex medical terms used to describe the adverse reactions patients have experienced when taking certain drugs (18F Agile BPA Development Prototype)",
-    "quote": "",
-    "notes": "",
-    "date": "",
-    "client": "",
-    "category": "",
+    "quote": "null",
+    "notes": "null",
+    "date": "null",
+    "client": "null",
+    "category": "null",
     "relevant_paths": [{
         "name": "Drug Reactions Explained (DRE) Website",
         "path": "https://dre.540.co"
@@ -176,11 +176,11 @@
     "type": "Font & CSS Toolkit",
     "header": "Font & CSS Toolkit",
     "description": "Govicons is a icon font and CSS toolkit with 80 government themed icons, for easy scalable vector graphics on projects that needs government based icons. Govicons is created and maintained by 540.",
-    "quote": "",
-    "notes": "",
-    "date": "",
-    "client": "",
-    "category": "",
+    "quote": "null",
+    "notes": "null",
+    "date": "null",
+    "client": "null",
+    "category": "null",
     "relevant_paths": [{
         "name": "Govicons Website",
         "path": "http://govicons.io"
@@ -189,7 +189,7 @@
         "name": "GitHub Repo",
         "path": "https://github.com/540co/govicons"
       }
-    ],
+    ]
   },
 
   "projects": {
@@ -204,11 +204,11 @@
     hazardous air pollutants identified in the Clean Air Act.Air Hound shows you the magnitude and trends of these releases over time in
     specific geographic areas.
     ",
-    "quote": "",
-    "notes": "",
-    "date": "",
-    "client": "",
-    "category": "",
+    "quote": "null",
+    "notes": "null",
+    "date": "null",
+    "client": "null",
+    "category": "null",
     "relevant_paths": [{
         "name": "Air Hound Website",
         "path": "http://airhound.540.co"
@@ -217,7 +217,7 @@
         "name": "GitHub Repo",
         "path": "https://github.com/540co/epa-rfi"
       }
-    ],
+    ]
   },
 
   "projects": {
@@ -229,11 +229,11 @@
     "type": "Common Operating Data Repo",
     "header": "Common Operating Data Repo",
     "description": "This repo contains an extract of the public DoD Procurement (P-1) and RDTE (R-1) justification book exhibits submitted by the US DoD Military Departments and Defense Agencies into multiple data formats to allow analysts / users to use their tool of choice when analyzing and/or merging with other data sources.",
-    "quote": "",
-    "notes": "",
-    "date": "",
-    "client": "",
-    "category": "",
+    "quote": "null",
+    "notes": "null",
+    "date": "null",
+    "client": "null",
+    "category": "null",
     "relevant_paths": [{
         "name": "jbooks Website",
         "path": "https://jbooks.fedapi.io/"
@@ -242,7 +242,7 @@
         "name": "GitHub Repo",
         "path": "https://github.com/540co/dod-president-budget-procurement-rdte-data"
       }
-    ],
+    ]
   },
 
   "team_members": {
@@ -276,7 +276,7 @@
     "fun_facts": ["My first product TwapperKeeper was acquired by HootSuite.",
       "I am unofficially sponsored by 5hour energy.",
       "Every week I try to hack on something new."
-    ],
+    ]
   },
 
 
@@ -312,7 +312,7 @@
     "fun_facts": ["I was a Hurricane Katrina refugee in 2005.",
       "I only vaguely remember what my natural hair color is (it's currently hot pink).",
       "I'm really tiny - under 5 feet."
-    ],
+    ]
   },
 
   "team_members": {
@@ -321,8 +321,8 @@
     "name": "Ben Campbell",
     "position": "Application Developer",
     "member_path": "team/ben.html",
-    "twitter_path": "",
-    "facebook_path": "",
+    "twitter_path": "null",
+    "facebook_path": "null",
     "linkedin_path": "https://www.linkedin.com/in/benjamin-campbell-c",
     "github_path": "https://github.com/campbebc",
     "expertise": "HTML, CSS, Java, AngularJS, Relational DBs",
@@ -344,7 +344,7 @@
     "fun_facts": ["I traveled to Brazil for the 2014 FIFA World Cup.",
       "I used to snowboard race in college (Go Dukes!).",
       "My favorite fruit is mango."
-    ],
+    ]
   },
 
   "team_members": {
@@ -353,8 +353,8 @@
     "name": "Chris Whitten",
     "position": "Solutions Architect",
     "member_path": "team/chris-whitten.html",
-    "twitter_path": "",
-    "facebook_path": "",
+    "twitter_path": "null",
+    "facebook_path": "null",
     "linkedin_path": "https://www.linkedin.com/in/chrislwhitten",
     "github_path": "https://github.com/whit1206",
     "expertise": "I am an experienced Software Engineer, entrepreneur and tinkerer with a love for working with people and anything data related (especially if its solving real world problems). With over 18 years experience in the IT field and starting seven of my own companies, I have had the pleasure of working at both small and large companies alike. I am truly passionate in the work I do and always strive to learn as much as I can. I love to share my knowledge and experiences with would-be Engineers and Entrepreneurs and find I have something to learn from them as well. For many years I have been a back-end systems architect and engineer, fond of and using the LAMP stack throughout most of it. I have helped private, public and government entities to be more efficient and utilize new tools more effectively. Especially lately when it comes to the Atlassian tool suite.",
@@ -379,7 +379,7 @@
       "Worked at the boyscout camp Parsons in Washington State for many years. Still know the slogan, motto, etc.",
       "Once wrote a dissassembler in assembly (Motorola 68000).",
       "I used to be able to recite up to 150 decimals of PI from memory."
-    ],
+    ]
   },
 
   "team_members": {
@@ -413,7 +413,7 @@
     "fun_facts": ["I was born in Morocco.",
       "I'm a HUGE Pearl Jam fan (I've seen them 17 times, traded guitar picks with PJ guitarist Mike McCready from the front row at a show in Charlottesville, and met PJ front man Eddie Vedder after a show in Milwaukee).",
       "I've visited 49 of our 50 states (Alaska is the only one left!). And for those that are wondering, layovers do not count. In my mind, to say you visited a place, you have to actually do something there. Every state has something cool to offer, but my favorites have been Montana, Washington, New Mexico and Hawaii."
-    ],
+    ]
   },
 
   "team_members": {
@@ -423,7 +423,7 @@
     "position": "Chief Customer Experience Officer",
     "member_path": "team/claudia.html",
     "twitter_path": "https://twitter.com/540claudia/",
-    "facebook_path": "",
+    "facebook_path": "null",
     "linkedin_path": "https://www.linkedin.com/in/540claudia",
     "github_path": "https://github.com/claudiadecarlo",
     "expertise": "Knowledge Management, IT Strategy, Strategic Planning, Business Process Improvement, IT Acquisition and Management",
@@ -445,7 +445,7 @@
     "fun_facts": ["I have been to over 25 different countries.",
       "I speak fluent Spanish.",
       "I once auditioned to be on The Apprentice."
-    ],
+    ]
   },
 
   "team_members": {
@@ -453,9 +453,9 @@
     "image_path": "img/team/cullen.png",
     "name": "Cullen Kirkpatrick",
     "position": "Front End Developer",
-    "_path": "team/cullen.html",
+    "member_path": "team/cullen.html",
     "twitter_path": "https://twitter.com/CullenKirkpatrk",
-    "facebook_path": "",
+    "facebook_path": "null",
     "linkedin_path": "https://www.linkedin.com/in/cullen-kirkpatrick-6a397846",
     "github_path": "https://github.com/cjk101812",
     "expertise": "UI, HTML, CSS, Angular, JavaScript, Analytics",
@@ -480,7 +480,7 @@
       "fun_facts": ["A house I lived in growing up was in the background of MTV Cribs...Trick Daddy's episode.",
         "I was born in Miami a few days before my family's house was destroyed by Hurricane Andrew.",
         "I ruptured my achilles playing soccer right before I started at 540.co"
-      ],
+      ]
     },
 
     "team_members": {
@@ -489,8 +489,8 @@
       "name": "Don Brinker",
       "position": "Development Lead",
       "member_path": "team/don.html",
-      "twitter_path": "",
-      "facebook_path": "",
+      "twitter_path": "null",
+      "facebook_path": "null",
       "linkedin_path": "https://www.linkedin.com/in/donbrinker",
       "github_path": "https://github.com/dbrinker",
       "expertise": "I've been developing software since the late 80s (early 90s if you don't count college jobs).  I've primarily worked with the Java stack in recent years, though a lot of the usual suspects (Ruby, Python, Groovy, etc) have found their way into my toolbox over time.  My main interest is building things, whether that's APIs, web applications, development teams, or rockstar developers.  (Hey, they have to come from <em>somewhere</em>...)",
@@ -513,7 +513,7 @@
         "I used to play the trumpet for fun (and even profit, a few times)!  No more, but my musical tastes still tend to be a bit... eclectic as a result.",
         "I've been referred to as \"jovial\" in reviews before.  I <em>think</em> that's a good thing.",
         "I've fallen off a chairlift before.  Let's just say I know how Homer Simpson feels."
-      ],
+      ]
     },
 
     "team_members": {
@@ -522,8 +522,8 @@
       "name": "Giang Thiet",
       "position": "Senior Software Engineer",
       "member_path": "team/giang.html",
-      "twitter_path": "",
-      "facebook_path": "",
+      "twitter_path": "null",
+      "facebook_path": "null",
       "linkedin_path": "https://www.linkedin.com/in/gthiet",
       "github_path": "https://github.com/gthiet",
       "expertise": "I'm full stack engineer, a jack of all trades.",
@@ -547,7 +547,7 @@
       "fun_facts": ["I play flag football 4 days a week.",
         "I’m recovering gaming addict.",
         "I love Crossfit."
-      ],
+      ]
     },
 
     "team_members": {
@@ -556,8 +556,8 @@
       "name": "Jeremy Altman",
       "position": "Solutions Architect",
       "member_path": "team/jeremy-altman.html",
-      "twitter_path": "",
-      "facebook_path": "",
+      "twitter_path": "null",
+      "facebook_path": "null",
       "linkedin_path": "https://www.linkedin.com/in/jeremyaltman",
       "github_path": "https://github.com/killerbgt",
       "expertise": "Ruby on Rails, REST APIs, Amazon Web Services",
@@ -579,7 +579,7 @@
       "fun_facts": ["I was a torchbearer for the 1996 Summer Olympics (Atlanta).",
         "I am an Eagle Scout (Boy Scouts of America).",
         "I hate animated movies."
-      ],
+      ]
     },
 
     "team_members": {
@@ -611,7 +611,7 @@
       "fun_facts": ["I am a CrossFit Level 1 Trainer.",
         "I'm the only one in my family that isn't a teacher.",
         "Every school I have attended has been <b style=\"color: #461D7C;\">purple</b> and <b style=\"color:#FDD023;\">gold"
-      ],
+      ]
     },
 
     "team_members": {
@@ -620,8 +620,8 @@
       "name": "Jon Minter",
       "position": "Senior Developer",
       "member_path": "team/jon.html",
-      "twitter_path": "",
-      "facebook_path": "",
+      "twitter_path": "null",
+      "facebook_path": "null",
       "linkedin_path": "https://www.linkedin.com/in/jonathan-minter-7bb06a8",
       "github_path": "https://github.com/jonminter",
       "expertise": "#PHP #APIs #HTML5 #CSS3 #AngularJS #JQuery",
@@ -643,7 +643,7 @@
       "fun_facts": ["I love traveling I once took a month and half road trip across the United States.",
         "I come from a big family, I have 11 siblings.",
         "I have twice ran a distance relay race where our team of 12 ran 200 miles in 2 days with very little sleep."
-      ],
+      ]
     },
 
     "team_members": {
@@ -652,8 +652,8 @@
       "name": "Josh Harris",
       "position": "Solutions Engineer",
       "member_path": "team/josh.html",
-      "twitter_path": "",
-      "facebook_path": "",
+      "twitter_path": "null",
+      "facebook_path": "null",
       "linkedin_path": "https://www.linkedin.com/in/joshuablakeharris",
       "github_path": "https://github.com/harrisjb",
       "expertise": "I'm a full stack developer primarily working in Ruby on Rails and multiple Javascript frameworks. I also enjoy dev ops related work. I've got extensive experience working with AWS deployments and architectures.",
@@ -676,7 +676,7 @@
         "I love music, especially live music. To me there's nothing like watching a live performance of a song you love, or stumbling onto a new band just because you happened to be there one night when they performed.",
         "I grew up in Garland, Texas, where King of the Hill is based on (they live in Arland, Texas). I find it incredibly accurate and enjoyable to watch.",
         "Even though I love politics, history, and music, it took my wife months to convince me to listen to the Hamilton soundtrack. She was right, it's excellent."
-      ],
+      ]
     },
 
     "team_members": {
@@ -685,7 +685,7 @@
       "name": "Lindsey Rothschild",
       "position": "Office Manager and Operations Guru",
       "member_path": "team/lindsey.html",
-      "twitter_path": "",
+      "twitter_path": "null",
       "facebook_path": "https://www.facebook.com/public/Lindsey-Rothschild",
       "linkedin_path": "https://www.linkedin.com/in/lindseyrothschild",
       "github_path": "https://github.com/lindseyrothschild",
@@ -708,7 +708,7 @@
       "fun_facts": ["I've cracked my head open three times in the same spot.",
         "I'm a proud fan of the greatest NFL team in history, the Buffalo Bills.",
         "I find grocery shopping to be a soothing activity."
-      ],
+      ]
     },
 
     "team_members": {
@@ -718,7 +718,7 @@
       "position": "Front End Developer",
       "member_path": "team/mark.html",
       "twitter_path": "https://twitter.com/mark_ostrander",
-      "facebook_path": "",
+      "facebook_path": "null",
       "linkedin_path": "https://www.linkedin.com/pub/mark-ostrander/55/903/478",
       "github_path": "https://github.com/ostranme",
       "expertise": "HTML, CSS, Javascript, Front End Development, NodeJS, AWS, APIs, AngularJS",
@@ -740,7 +740,7 @@
       "fun_facts": ["I have a black lab named Gunner.",
         "I love cookies.",
         "My favorite film is Toy Story."
-      ],
+      ]
     },
 
     "team_members": {
@@ -749,8 +749,8 @@
       "name": ">Nicholas Rinaldi",
       "position": "Intern",
       "member_path": "team/nick_rinaldi.html",
-      "twitter_path": "",
-      "facebook_path": "",
+      "twitter_path": "null",
+      "facebook_path": "null",
       "linkedin_path": "https://www.linkedin.com/in/nicholas-rinaldi/",
       "github_path": "https://github.com/ndrinaldi",
       "expertise": "Object Oriented Programming, Web Developement, C++, Java, Pyhton, and PHP.",
@@ -774,7 +774,7 @@
       "fun_facts": ["I have four younger sisters.",
         "I have been a part of seven different sports teams (Badminton, Football, Lacrosse, Swimming, Tennis, Basketball, and Soccer).",
         "I compete, on a regional level, in tourniments playing a game from 2001 for the Nintendo GameCube."
-      ],
+      ]
     },
 
     "team_members": {
@@ -784,7 +784,7 @@
       "position": "Data Engineer",
       "member_path": "team/patrick.html",
       "twitter_path": "https://twitter.com/patricknowlan",
-      "facebook_path": "",
+      "facebook_path": "null",
       "linkedin_path": "https://www.linkedin.com/in/patricknowlan/",
       "github_path": "https://github.com/patricknowlan",
       "expertise": "Application Prototyping, Full Stack Development, AngularJS, REST/SOAP APIs, Data Analytics, Data Visualization, Product Management, Project Management, and BD",
@@ -808,7 +808,7 @@
       "fun_facts": ["I love science.",
         "I have traveled the United States for a straight month in a mini van.",
         "I wish restauraunts served breakfast all day."
-      ],
+      ]
     },
 
     "team_members": {
@@ -818,7 +818,7 @@
       "position": "Solutions Engineer",
       "member_path": "team/sean.html",
       "twitter_path": "https://twitter.com/seanplacchetti",
-      "facebook_path": "",
+      "facebook_path": "null",
       "linkedin_path": "https://www.linkedin.com/in/placchetti",
       "github_path": "https://github.com/SeanPlacchetti",
       "expertise": "#webdev #django #scrum #devops #selinux #infosec",
@@ -842,7 +842,7 @@
       "fun_facts": ["I've worked as the music director of a radio station, an apprentice butcher, and a bartender.",
         "I learned to code using R.",
         "I could eat Ethiopian food at every meal."
-      ],
+      ]
     },
 
     "team_members": {
@@ -876,7 +876,7 @@
       "fun_facts": ["I speak 3 languages",
         "I made $70 dollars per month on my first job (outside US) and saved 30% of my salary each month.",
         "I was a vegetarian until I was 15."
-      ],
+      ]
     },
 
     "team_members": {
@@ -910,98 +910,98 @@
         "I scream like a little girl on \"freefall-type\" amusement park rides... most particularly Tower of Terror in Disney World (Orlando).",
         "I've only seen one President in person, and that was when George W. Bush came to speak at Auburn University. He began the speech with a \"War Eagle!\" and the rest is history...",
         "I went to Space Camp as a kid and had serious ambitions to become an astronaut. They told us that our generation of astronaut would get to walk on Mars...... TBD."
-      ],
+      ]
     },
 
     "clients": {
       "id": 0,
       "icon_path": "img/clients/atl.png",
       "name": "AT&L",
-      "client_path": "http://www.acq.osd.mil/",
+      "client_path": "http://www.acq.osd.mil/"
     },
 
     "clients": {
       "id": 1,
       "icon_path": "img/clients/dpap.gif",
       "name": "DPAP",
-      "client_path": "http://www.acq.osd.mil/dpap/",
+      "client_path": "http://www.acq.osd.mil/dpap/"
     },
 
     "clients": {
       "id": 2,
       "icon_path": "img/clients/dpap.gif",
       "name": "DOD",
-      "client_path": "http://www.defense.gov/",
+      "client_path": "http://www.defense.gov/"
     },
 
     "clients": {
       "id": 3,
       "icon_path": "img/clients/army.png",
       "name": "ARMY",
-      "client_path": "http://www.army.mil/",
+      "client_path": "http://www.army.mil/"
     },
 
     "clients": {
       "id": 4,
       "icon_path": "img/clients/dla.png",
       "name": "DLA",
-      "client_path": "http://www.dla.mil/Pages/default.aspx",
+      "client_path": "http://www.dla.mil/Pages/default.aspx"
     },
 
     "clients": {
       "id": 5,
       "icon_path": "img/clients/nawah.png",
       "name": "NAWAH",
-      "client_path": "http://www.nawah.com/en/",
+      "client_path": "http://www.nawah.com/en/"
     },
 
     "contract_vehicles": {
-      "contract_id": 0,
+      "id": 0,
       "name": "VA Advisor",
       "description": "VA Agile Delivery of VA Imminent Strategic and Operational Requirements (ADVISOR) contract. This 5-year multi-award IDIQ is designed to assist VA programs execute cross-agency initiatives and achieve strategic priorities that
       ultimately improve outcomes
       for VA customers.
       ",
-      "contract_path": "",
+      "contract_path": "null"
     },
 
     "contract_vehicles": {
-      "contract_id": 1,
+      "id": 1,
       "name": "ATSS",
       "description": "Providing OUSD(AT&L)(ARA) Property and Equipment (P&E) Policy Office with technical and management to support the overall goals of DoD financial transparency. Assisting the Department of Defense to improve accountability
       practices,
       increase auditability,
       and guide reporting practices and procedures.
       ",
-      "contract_path": "",
+      "contract_path": "null"
     },
 
     "partners": {
       "id": 0,
       "icon_path": "img/partners/aws.png",
       "name": "Amazon Webservices",
-      "partner_path": "https://aws.amazon.com/",
+      "partner_path": "https://aws.amazon.com/"
     },
 
     "partners": {
       "id": 1,
       "icon_path": "img/partners/elastic.png",
       "name": "Elastic",
-      "partner_path": "https://www.elastic.co/",
+      "partner_path": "https://www.elastic.co/"
     },
 
     "partners": {
       "id": 2,
       "icon_path": "img/partners/docker.jpg",
       "name": "Docker",
-      "partner_path": "https://www.docker.com/",
+      "partner_path": "https://www.docker.com/"
     },
 
     "partners": {
       "id": 3,
       "icon_path": "img/partners/mongo.png",
       "name": "MongoDB",
-      "partner_path": "https://www.mongodb.com/",
+      "partner_path": "https://www.mongodb.com/"
     },
 
     "jobs": {
@@ -1016,22 +1016,21 @@
       "perks_list": ["Competitive pay and a sweet 401(k)", "Top of the line tech…. whatever you need to hack faster",
         "Flexible time off", "Spotify account for work and play", "Conferences, training, learning events",
         "Excellent medical, dental and vision insurance"
-      ],
+      ]
     },
 
     "config": {
-      "apigeeRevokeUrl": "string",
-      "baseBaasUrl": "string",
-      "swaggerSpecUrl": "string",
-      "baseDamirProxyUrl": "string",
+      "apigeeRevokeUrl": "null",
+      "baseBaasUrl": "null",
+      "swaggerSpecUrl": "null",
+      "baseDamirProxyUrl": "null",
       "phone": "(571) 350-3540",
       "email": "malito:info@540.co",
       "address": "2231 Crystal Drive, Suite 1000 Arlingtion, VA 22202",
       "githubURL": "https://github.com/540co",
       "twitterURL": "https://twitter.com/540co/",
       "facebookURL": "https://www.facebook.com/pages/540consulting/460073254038637",
-      "linkedinURL": "https://www.linkedin.com/company/540co",
-
+      "linkedinURL": "https://www.linkedin.com/company/540co"
     },
 
   }
