@@ -264,53 +264,53 @@ functions:
           cors: true
 
 # --- PARTNER FUNCITONS --- #
-  partners_post:
-    handler: functions/partners.post
-    events:
-      - http:
-          path: partners
-          method: post
-          cors: true
-
-  partners_get:
-    handler: functions/partners.list
-    events:
-      - http:
-          path: partners
-          method: get
-          cors: true
-
-  partners_get_instance:
-    handler: functions/partners.get
-    events:
-      - http:
-          path: partners/{id}
-          method: get
-          cors: true
-
-  partners_put:
-    handler: functions/partners.put
-    events:
-      - http:
-          path: partners/{id}
-          method: put
-          cors: true
-
-  partners_patch:
-    handler: functions/partners.patch
-    events:
-      - http:
-          path: partners/{id}
-          method: patch
-          cors: true
-
-  partners_delete:
-    handler: functions/partners.delete
-    events:
-      - http:
-          path: partners/{id}
-          method: delete
-          cors: true
+  # partners_post:
+  #   handler: functions/partners.post
+  #   events:
+  #     - http:
+  #         path: partners
+  #         method: post
+  #         cors: true
+  #
+  # partners_get:
+  #   handler: functions/partners.list
+  #   events:
+  #     - http:
+  #         path: partners
+  #         method: get
+  #         cors: true
+  #
+  # partners_get_instance:
+  #   handler: functions/partners.get
+  #   events:
+  #     - http:
+  #         path: partners/{id}
+  #         method: get
+  #         cors: true
+  #
+  # partners_put:
+  #   handler: functions/partners.put
+  #   events:
+  #     - http:
+  #         path: partners/{id}
+  #         method: put
+  #         cors: true
+  #
+  # partners_patch:
+  #   handler: functions/partners.patch
+  #   events:
+  #     - http:
+  #         path: partners/{id}
+  #         method: patch
+  #         cors: true
+  #
+  # partners_delete:
+  #   handler: functions/partners.delete
+  #   events:
+  #     - http:
+  #         path: partners/{id}
+  #         method: delete
+  #         cors: true
 
 
 
@@ -401,19 +401,18 @@ resources:
           WriteCapacityUnits: 1
         TableName: ContractVehicles
 
-    Partners:
-      Type: 'AWS::DynamoDB::Table'
-      DeletionPolicy: Retain
-      Properties:
-        AttributeDefinitions:
-          -
-            AttributeName: id
-            AttributeType: N
-        KeySchema:
-          -
-            AttributeName: id
-            KeyType: HASH
-        ProvisionedThroughput:
-          ReadCapacityUnits: 1
-          WriteCapacityUnits: 1
-        TableName: Partners
+#    Partners:
+#      Type: 'AWS::DynamoDB::Table'
+#      DeletionPolicy: Retain
+#      Properties:
+#        AttributeDefinitions:
+#          -
+#            AttributeName: id
+#            AttributeType: N
+#        KeySchema:
+#          -
+#            AttributeName: id
+#            KeyType: HASH
+#        ProvisionedThroughput:
+##          WriteCapacityUnits: 1
+  #      TableName: Partners
