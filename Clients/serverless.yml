@@ -1,0 +1,85 @@
+service: aws-540api-Client
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:*:*"
+
+functions:
+
+  clients_post:
+    handler: clients.post
+    events:
+      - http:
+          path: clients
+          method: post
+          cors: true
+
+  clients_get:
+    handler: clients.list
+    events:
+      - http:
+          path: clients
+          method: get
+          cors: true
+
+  clients_get_instance:
+    handler: clients.get
+    events:
+      - http:
+          path: clients/{id}
+          method: get
+          cors: true
+
+  clients_put:
+    handler: clients.put
+    events:
+      - http:
+          path: clients/{id}
+          method: put
+          cors: true
+
+  clients_patch:
+    handler: clients.patch
+    events:
+      - http:
+          path: clients/{id}
+          method: patch
+          cors: true
+
+  clients_delete:
+    handler: clients.delete
+    events:
+      - http:
+          path: clients/{id}
+          method: delete
+          cors: true
+
+resources:
+  Resources:
+    Clients:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType: N
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: Clients

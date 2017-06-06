@@ -1,0 +1,87 @@
+service: aws-540api-TeamMember
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:*:*"
+
+functions:
+
+  team_members_post:
+    handler: team_members.post
+    events:
+      - http:
+          path: team_members
+          method: post
+          cors: true
+
+  team_members_get:
+    handler: team_members.list
+    events:
+      - http:
+          path: team_members
+          method: get
+          cors: true
+
+  team_members_get_instance:
+    handler: team_members.get
+    events:
+      - http:
+          path: team_members/{id}
+          method: get
+          cors: true
+
+  team_members_put:
+    handler: team_members.put
+    events:
+      - http:
+          path: team_members/{id}
+          method: put
+          cors: true
+
+  team_members_patch:
+    handler: team_members.patch
+    events:
+      - http:
+          path: team_members/{id}
+          method: patch
+          cors: true
+
+  team_members_delete:
+    handler: team_members.delete
+    events:
+      - http:
+          path: team_members/{id}
+          method: delete
+          cors: true
+
+
+resources:
+  Resources:
+
+    TeamMembers:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType: N
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: TeamMembers

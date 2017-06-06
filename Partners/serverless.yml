@@ -1,0 +1,85 @@
+service: aws-540api-Partners
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:*:*"
+
+functions:
+
+  partners_post:
+    handler: partners.post
+    events:
+      - http:
+          path: partners
+          method: post
+          cors: true
+
+  partners_get:
+    handler: partners.list
+    events:
+      - http:
+          path: partners
+          method: get
+          cors: true
+
+  partners_get_instance:
+    handler: partners.get
+    events:
+      - http:
+          path: partners/{id}
+          method: get
+          cors: true
+
+  partners_put:
+    handler: partners.put
+    events:
+      - http:
+          path: partners/{id}
+          method: put
+          cors: true
+
+  partners_patch:
+    handler: partners.patch
+    events:
+      - http:
+          path: partners/{id}
+          method: patch
+          cors: true
+
+  partners_delete:
+    handler: partners.delete
+    events:
+      - http:
+          path: partners/{id}
+          method: delete
+          cors: true
+
+resources:
+  Resources:
+    Partners:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType: N
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: Partners

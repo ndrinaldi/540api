@@ -43,14 +43,7 @@
     "title": "Acquisition Visibility API Modernization",
     "header": "Wed APIs and Apps",
     "type": "RESTful Data Platforms and Apps",
-    "description": "OSD analysts and leadership need accurate visibility to acquisition data to help them make the right decisions and ensure big dollar MDAP and MAIS programs are on budget, on schedule and meeting performance metrics. The Acquisition Visibility team
-    at ARA is leading the charge of collecting,
-    tagging,
-    correlating and exposing important acquisition data.Collecting and mashing data from across multiple DoD silos(
-      acquisition, budget, procurement),
-    the team is cataloging and deploying reusable APIs to share important data resources across the Pentagon and deploying applications to give leaders the data they need to make decisions
-    .
-    ",
+    "description": "OSD analysts and leadership need accurate visibility to acquisition data to help them make the right decisions and ensure big dollar MDAP and MAIS programs are on budget, on schedule and meeting performance metrics. The Acquisition Visibility team at ARA is leading the charge of collecting, tagging, correlating and exposing important acquisition data.Collecting and mashing data from across multiple DoD silos(acquisition, budget, procurement), the team is cataloging and deploying reusable APIs to share important data resources across the Pentagon and deploying applications to give leaders the data they need to make decisions.",
     "quote": "540 is helping ARA define the overall API strategy and design while also developing and shipping data crawlers, data mashing APIs and visibility / visualization applications.",
     "notes": "Since most of the capabilities being deployed are private in nature, we cannot show you the catalog of private APIs or the applications being developed. But if you want to see a similar approach, check out our open project at Fed {API}, which is collecting, correlating and exposing public government data sets using super cool tech such MongoDB, Elasticsearch, and Neo4j.",
     "date": "April 2014",
@@ -58,8 +51,7 @@
     "category": "API Design/ App Development",
     "relevant_paths": [{
       "name": "Fed {API}",
-      "path": "https://fedapi.io/www/"
-    }]
+      "path": "https://fedapi.io/www/"}]
   },
 
   "projects": {
@@ -70,11 +62,7 @@
     "title": "Contract Line Item Wizard Tool",
     "type": "Lightweight Angular App",
     "header": "Lightweight Angular App",
-    "description": "The Contract Line Item Wizard is a tool designed to provide \"just in time\" guidance and information (including references) to a contract writing professional on how best to structure their line item in support of PGI 204.71. The Contract Wizard
-    will be a web - based tool that guides / assists users in following the rules
-    for creating contract line items consistent with the type of requirement(supplies / equipment, services, etc.) and contract /
-    pricing arrangement(firm - fixed price, fixed - price incentive, cost - plus - fixed - fee, etc.).
-    ",
+    "description": "The Contract Line Item Wizard is a tool designed to provide \"just in time\" guidance and information (including references) to a contract writing professional on how best to structure their line item in support of PGI 204.71. The Contract Wizard will be a web - based tool that guides / assists users in following the rules for creating contract line items consistent with the type of requirement(supplies / equipment, services, etc.) and contract / pricing arrangement(firm fixed price, fixed - price incentive, cost - plus - fixed - fee, etc.).",
     "quote": "540 leads the design and development of the Contract Wizard while working closely with our subject matter experts. We're using AngularJS and Amazon Web Services to build this resilient app.",
     "notes": "Currently still in private beta. Once it's public, a link will be posted.",
     "date": "July 2014",
@@ -99,8 +87,7 @@
     "category": "Software Development | APIs",
     "relevant_paths": [{
       "name": "www.psctool.us",
-      "path": "https://www.psctool.us/"
-    }],
+      "path": "https://www.psctool.us/"}]
   },
 
   "projects": {
@@ -111,9 +98,7 @@
     "title": "FedAPI",
     "type": "Open Data Platform",
     "header": "API Platform",
-    "description": "Data indexing and API platform designed to accelerate your agency's Analytics, Common Operating Pictures, Applications and Data Sharing. FedAPI was designed to organize and inform your analysts, developers and integration parters about your data
-    resources.Also dynamic and consistent APIs across data resources automatically generated when data is indexed.
-    ",
+    "description": "Data indexing and API platform designed to accelerate your agency's Analytics, Common Operating Pictures, Applications and Data Sharing. FedAPI was designed to organize and inform your analysts, developers and integration parters about your data resources.Also dynamic and consistent APIs across data resources automatically generated when data is indexed.",
     "quote": "Whether you call it a common operating picture, management report or dashboard, everyone visualizes data differently, often sharing common data resources. FedAPI focuses on indexing common data resources so you don't have to.",
     "notes": "You can start indexing data at www.fedapi.io",
     "date": "null",
@@ -121,8 +106,7 @@
     "category": "null",
     "relevant_paths": [{
       "name": "www.fedapi.io",
-      "path": "https://fedapi.io/www/"
-    }]
+      "path": "https://fedapi.io/www/"}]
   },
 
   "projects": {
@@ -139,7 +123,7 @@
     "date": "null",
     "client": "null",
     "category": "null",
-    "relevant_paths": [],
+    "relevant_paths": []
   },
 
   "projects": {
@@ -158,13 +142,9 @@
     "category": "null",
     "relevant_paths": [{
         "name": "Drug Reactions Explained (DRE) Website",
-        "path": "https://dre.540.co"
-      },
-      {
-        "name": "GitHub Repo",
-        "path": "https://github.com/540co/ads-bpa"
-      }
-    ],
+        "path": "https://dre.540.co"},
+       {"name": "GitHub Repo",
+        "path": "https://github.com/540co/ads-bpa"}]
   },
 
   "projects": {
@@ -183,13 +163,9 @@
     "category": "null",
     "relevant_paths": [{
         "name": "Govicons Website",
-        "path": "http://govicons.io"
-      },
-      {
-        "name": "GitHub Repo",
-        "path": "https://github.com/540co/govicons"
-      }
-    ]
+        "path": "http://govicons.io"},
+       {"name": "GitHub Repo",
+        "path": "https://github.com/540co/govicons"}]
   },
 
   "projects": {
@@ -200,10 +176,7 @@
     "title": "Air Hound",
     "type": "Application",
     "header": "Application",
-    "description": "Air Hound is a lightweight application that gives you information on air quality in any location in the United States over time. The United States Environmental Protection Agency's Toxic Release Inventory feeds Air Hound information on the release of
-    hazardous air pollutants identified in the Clean Air Act.Air Hound shows you the magnitude and trends of these releases over time in
-    specific geographic areas.
-    ",
+    "description": "Air Hound is a lightweight application that gives you information on air quality in any location in the United States over time. The United States Environmental Protection Agency's Toxic Release Inventory feeds Air Hound information on the release of hazardous air pollutants identified in the Clean Air Act.Air Hound shows you the magnitude and trends of these releases over time in specific geographic areas.",
     "quote": "null",
     "notes": "null",
     "date": "null",
@@ -211,13 +184,9 @@
     "category": "null",
     "relevant_paths": [{
         "name": "Air Hound Website",
-        "path": "http://airhound.540.co"
-      },
-      {
-        "name": "GitHub Repo",
-        "path": "https://github.com/540co/epa-rfi"
-      }
-    ]
+        "path": "http://airhound.540.co"},
+       {"name": "GitHub Repo",
+        "path": "https://github.com/540co/epa-rfi"}]
   },
 
   "projects": {
@@ -236,13 +205,9 @@
     "category": "null",
     "relevant_paths": [{
         "name": "jbooks Website",
-        "path": "https://jbooks.fedapi.io/"
-      },
-      {
-        "name": "GitHub Repo",
-        "path": "https://github.com/540co/dod-president-budget-procurement-rdte-data"
-      }
-    ]
+        "path": "https://jbooks.fedapi.io/"},
+       {"name": "GitHub Repo",
+        "path": "https://github.com/540co/dod-president-budget-procurement-rdte-data"}]
   },
 
   "team_members": {
@@ -257,26 +222,20 @@
     "github_path": "https://github.com/jobrieniii",
     "expertise": "#APIs #Data #AngularJS #PHP #Building_Apps #Development #Elasticsearch #Open_Data #Disrupt #Government #Getshitdone #Enterprise",
     "interests": "Hacking, Racing, Fast Cars.",
-    "education": ["University of Florida - Bachelors Degree in Mechanical Engineering",
-      "University of Maryland College Park - MBA"
-    ],
+    "education": [
+      "University of Florida - Bachelors Degree in Mechanical Engineering",
+      "University of Maryland College Park - MBA"],
     "qa": [{
         "question": "What was your first Job?",
-        "answer": "We have a great team. Everyone is passionate about our projects and our clients. The high quality people make 540 an awesome place to work!"
-      },
-      {
-        "question": "What do you like about 540?",
-        "answer": "We have a great team. Everyone is passionate about our projects and our clients. The high quality people make 540 an awesome place to work!"
-      },
-      {
-        "question": "What do you do in your spare time?",
-        "answer": "Usually think about what I would build if there were more hours in the day."
-      }
-    ],
-    "fun_facts": ["My first product TwapperKeeper was acquired by HootSuite.",
+        "answer": "We have a great team. Everyone is passionate about our projects and our clients. The high quality people make 540 an awesome place to work!"},
+       {"question": "What do you like about 540?",
+        "answer": "We have a great team. Everyone is passionate about our projects and our clients. The high quality people make 540 an awesome place to work!"},
+       {"question": "What do you do in your spare time?",
+        "answer": "Usually think about what I would build if there were more hours in the day."}],
+    "fun_facts": [
+      "My first product TwapperKeeper was acquired by HootSuite.",
       "I am unofficially sponsored by 5hour energy.",
-      "Every week I try to hack on something new."
-    ]
+      "Every week I try to hack on something new."]
   },
 
 
@@ -292,27 +251,20 @@
     "github_path": "https://github.com/mandy6720",
     "expertise": "#HTML5 #CSS #Design #UX/UI #JavaScript #ReactJS #AngularJS #Web_Development #Front_End #Getshitdone",
     "interests": "Design, Hacking, Learning, Traveling, Netflix Marathons and Cooking (especially the eating part).",
-    "education": ["Design, Hacking, Learning, Traveling, Netflix Marathons and Cooking (especially the eating part).",
+    "education": [
       "Art Institute of Washington - Advertising Design",
-      "The Iron Yard - Front End Engineering"
-    ],
+      "The Iron Yard - Front End Engineering"],
     "qa": [{
         "question": "What was your first Job?",
-        "answer": "Haagen Dazs"
-      },
-      {
-        "question": "Haagen Dazs",
-        "answer": "The unique approach to government work. The team is also awesome and I couldn't be more excited to #getshitdone"
-      },
-      {
-        "question": "What do you do in your spare time?",
-        "answer": "Netflix and chill (with my two awesome dogs, Bentley and Chewie). Either that or explore the city or try to learn something new. You can also find me at various meetups during the week, trying to master some new JavaScript library or framework."
-      }
-    ],
-    "fun_facts": ["I was a Hurricane Katrina refugee in 2005.",
+        "answer": "Haagen Dazs"},
+       {"question": "Haagen Dazs",
+        "answer": "The unique approach to government work. The team is also awesome and I couldn't be more excited to #getshitdone"},
+       {"question": "What do you do in your spare time?",
+        "answer": "Netflix and chill (with my two awesome dogs, Bentley and Chewie). Either that or explore the city or try to learn something new. You can also find me at various meetups during the week, trying to master some new JavaScript library or framework."}],
+    "fun_facts": [
+      "I was a Hurricane Katrina refugee in 2005.",
       "I only vaguely remember what my natural hair color is (it's currently hot pink).",
-      "I'm really tiny - under 5 feet."
-    ]
+      "I'm really tiny - under 5 feet."]
   },
 
   "team_members": {
@@ -330,21 +282,15 @@
     "education": ["James Madison University - B.S. Integrated Science and Technology"],
     "qa": [{
         "question": "What was your first Job?",
-        "answer": "Pirate"
-      },
-      {
-        "question": "What do you like about 540?",
-        "answer": "The \"hacky\" mindset that allows us to get things working quickly while using the newest, most efficient technologies."
-      },
-      {
-        "question": "What do you do in your spare time?",
-        "answer": "Play in an adult soccer league, go for bicycle rides around the District, and binge-watch everything."
-      }
-    ],
-    "fun_facts": ["I traveled to Brazil for the 2014 FIFA World Cup.",
+        "answer": "Pirate"},
+       {"question": "What do you like about 540?",
+        "answer": "The \"hacky\" mindset that allows us to get things working quickly while using the newest, most efficient technologies."},
+       {"question": "What do you do in your spare time?",
+        "answer": "Play in an adult soccer league, go for bicycle rides around the District, and binge-watch everything."}],
+    "fun_facts": [
+      "I traveled to Brazil for the 2014 FIFA World Cup.",
       "I used to snowboard race in college (Go Dukes!).",
-      "My favorite fruit is mango."
-    ]
+      "My favorite fruit is mango."]
   },
 
   "team_members": {
@@ -359,27 +305,18 @@
     "github_path": "https://github.com/whit1206",
     "expertise": "I am an experienced Software Engineer, entrepreneur and tinkerer with a love for working with people and anything data related (especially if its solving real world problems). With over 18 years experience in the IT field and starting seven of my own companies, I have had the pleasure of working at both small and large companies alike. I am truly passionate in the work I do and always strive to learn as much as I can. I love to share my knowledge and experiences with would-be Engineers and Entrepreneurs and find I have something to learn from them as well. For many years I have been a back-end systems architect and engineer, fond of and using the LAMP stack throughout most of it. I have helped private, public and government entities to be more efficient and utilize new tools more effectively. Especially lately when it comes to the Atlassian tool suite.",
     "interests": "I love to be out in the wild and exploring new trails. Whether its hiking or in a souped up 4x4, I love the outdoors and seeing something new. I also have a deep passion for business and technology, and finding new ways the combination of the two can make the world a better place.",
-    "education": [
-      "University of Washington - Bachelor's degree in Computer Software Systems (CSS) - Graduated in June 2002"
-    ],
+    "education": ["University of Washington - Bachelor's degree in Computer Software Systems (CSS) - Graduated in June 2002"],
     "qa": [{
         "question": "What was your first Job?",
-        "answer": "When I was in 6th grade, I got my first summer job cleaning up after and shoveling Alpaca poop. Hard job but it taught me a lot. My first software job was working at a computer security company writing desktop security applications."
-      },
-      {
-        "question": "What do you like about 540?",
-        "answer": "First off, best motto I have ever seen: \"Get shit done\". I really love the personalities and attitudes of everyone here. Work hard and have fun doing it. Plus, how can you not appreciate making the Government better?"
-      },
-      {
-        "question": "What do you do in your spare time?",
-        "answer": "Spend time with family and take the dogs on trails. I have a habit of playing with new technologies and coming up with small projects to learn them."
-      }
-    ],
+        "answer": "When I was in 6th grade, I got my first summer job cleaning up after and shoveling Alpaca poop. Hard job but it taught me a lot. My first software job was working at a computer security company writing desktop security applications."},
+       {"question": "What do you like about 540?",
+        "answer": "First off, best motto I have ever seen: \"Get shit done\". I really love the personalities and attitudes of everyone here. Work hard and have fun doing it. Plus, how can you not appreciate making the Government better?"},
+       {"question": "What do you do in your spare time?",
+        "answer": "Spend time with family and take the dogs on trails. I have a habit of playing with new technologies and coming up with small projects to learn them."}],
     "fun_facts": [
       "Worked at the boyscout camp Parsons in Washington State for many years. Still know the slogan, motto, etc.",
       "Once wrote a dissassembler in assembly (Motorola 68000).",
-      "I used to be able to recite up to 150 decimals of PI from memory."
-    ]
+      "I used to be able to recite up to 150 decimals of PI from memory."]
   },
 
   "team_members": {
@@ -394,26 +331,18 @@
     "github_path": "https://github.com/pcbock",
     "expertise": "Starting my career in Government Contracting provided a solid functional base on which I've built my career. I'm certified at Level III in Contracting under the Defense Acquisition Workforce Improvement Act. Through my years in management consulting, I became an experienced project and people manager, leading teams of consultants delivering to clients. I've also led capture on both large (greater than $25M) and smaller deals, managing capture strategy, proposal development, and pricing.",
     "interests": "I have a passion for bringing together teams of talented, dedicated, and diverse individuals to achieve an objective. Professionally, that means tackling big Government problems and challenges through brainstorming ideas across technical and functional domains, and meshing those ideas together into an effective solution. When I worked for the Government as a Contract Specialist, I took pride in my ability to lead the charge with my business and program counterparts, finding innovative ways to achieve our mission. I like to think of myself as the glue that brought and held those teams together. That same approach applies to my consulting career. Whether we are developing a new online capability for companies doing business with the Government, or putting together a team to field a new Government subsidy program, I love bringing teams together. That passion carries over to my personal life too. I'm a founding member of a rock band that plays in the DC area, and applying our diverse musical talents to create music that people enjoy is extremely rewarding. I also enjoy organizing social gatherings with my family and friends, often centered around the dinner table or set up in a college football stadium parking lot.",
-    "education": [
-      "I have a Bachelors Degree from James Madison University where I studied Marketing, and an MBA from The George Washington University with a concentration in Finance and Investments."
-    ],
+    "education": ["I have a Bachelors Degree from James Madison University where I studied Marketing, and an MBA from The George Washington University with a concentration in Finance and Investments."],
     "qa": [{
         "question": "What was your first Job?",
-        "answer": "My very first job was parking golf carts when I was 15 years old, which was fun because I got to drive before I got my driver's license. It was also fun because I got to play golf for free. My first job after college was with the Department of the Navy as a contract specialist."
-      },
-      {
-        "question": "What do you like about 540?",
-        "answer": "An organization is only as good as its people, and 540's people are the best. Very talented, dedicated, and passionate. We can do anything we set our minds to!"
-      },
-      {
-        "question": "What do you do in your spare time?",
-        "answer": "I'm the co-founder and bass player for Lloyd Braun Band, and we typically play out on the town about once a month. I also play golf, and am an avid sports fan. On any given Saturday in the Fall, you're likely to find me tailgating at a college football game. I also enjoy cooking, and my wife and I love hosting killer parties at our house."
-      }
-    ],
-    "fun_facts": ["I was born in Morocco.",
+        "answer": "My very first job was parking golf carts when I was 15 years old, which was fun because I got to drive before I got my driver's license. It was also fun because I got to play golf for free. My first job after college was with the Department of the Navy as a contract specialist."},
+       {"question": "What do you like about 540?",
+        "answer": "An organization is only as good as its people, and 540's people are the best. Very talented, dedicated, and passionate. We can do anything we set our minds to!"},
+       {"question": "What do you do in your spare time?",
+        "answer": "I'm the co-founder and bass player for Lloyd Braun Band, and we typically play out on the town about once a month. I also play golf, and am an avid sports fan. On any given Saturday in the Fall, you're likely to find me tailgating at a college football game. I also enjoy cooking, and my wife and I love hosting killer parties at our house."}],
+    "fun_facts": [
+      "I was born in Morocco.",
       "I'm a HUGE Pearl Jam fan (I've seen them 17 times, traded guitar picks with PJ guitarist Mike McCready from the front row at a show in Charlottesville, and met PJ front man Eddie Vedder after a show in Milwaukee).",
-      "I've visited 49 of our 50 states (Alaska is the only one left!). And for those that are wondering, layovers do not count. In my mind, to say you visited a place, you have to actually do something there. Every state has something cool to offer, but my favorites have been Montana, Washington, New Mexico and Hawaii."
-    ]
+      "I've visited 49 of our 50 states (Alaska is the only one left!). And for those that are wondering, layovers do not count. In my mind, to say you visited a place, you have to actually do something there. Every state has something cool to offer, but my favorites have been Montana, Washington, New Mexico and Hawaii."]
   },
 
   "team_members": {
@@ -431,21 +360,15 @@
     "education": ["Johns Hopkins University - MS in Information Systems"],
     "qa": [{
         "question": "What was your first Job?",
-        "answer": "I was Popcorn the Bear at the Ground Round Restaurant.  I stood on the side of the highway with balloons trying to get cars to turn into our restaurant."
-      },
-      {
-        "question": "What do you like about 540?",
-        "answer": "The opportunity to help bring the spirit of Silicon Valley back to the Federal Government where it all began."
-      },
-      {
-        "question": "What do you do in your spare time?",
-        "answer": "Traveling, going to the movies and plays, reading books, and discovering new and interesting bars and restaurants."
-      }
-    ],
-    "fun_facts": ["I have been to over 25 different countries.",
+        "answer": "I was Popcorn the Bear at the Ground Round Restaurant.  I stood on the side of the highway with balloons trying to get cars to turn into our restaurant."},
+       {"question": "What do you like about 540?",
+        "answer": "The opportunity to help bring the spirit of Silicon Valley back to the Federal Government where it all began."},
+       {"question": "What do you do in your spare time?",
+        "answer": "Traveling, going to the movies and plays, reading books, and discovering new and interesting bars and restaurants."}],
+    "fun_facts": [
+      "I have been to over 25 different countries.",
       "I speak fluent Spanish.",
-      "I once auditioned to be on The Apprentice."
-    ]
+      "I once auditioned to be on The Apprentice."]
   },
 
   "team_members": {
@@ -463,24 +386,15 @@
     "education": ["Saint Francis University - B.S. Computer Science with a Management Minor"],
     "qa": [{
         "question": "What was your first Job?",
-        "answer": "Worked at a Ski Resort"
-      },
-      {
-        "question": "What do you like about 540?",
-        "answer": "The confidence of the team and the straightforward yet innovative approach to the work."
-      },
-      {
-        "question": "What do you do in your spare time?",
-        "answer": "When I'm not hindered by a ruptured achilles you can usually bet that I'm doing something sports or
-        fitness related(Go Stillerz, Pens and Buccos!..sorry DC sports, you 're a close second).  I also like
-          watching movies and the occasional Netflix binge session.
-          "
-        }
-      ],
-      "fun_facts": ["A house I lived in growing up was in the background of MTV Cribs...Trick Daddy's episode.",
+        "answer": "Worked at a Ski Resort"},
+       {"question": "What do you like about 540?",
+        "answer": "The confidence of the team and the straightforward yet innovative approach to the work."},
+       {"question": "What do you do in your spare time?",
+        "answer": "When I'm not hindered by a ruptured achilles you can usually bet that I'm doing something sports or fitness related(Go Stillerz, Pens and Buccos!..sorry DC sports, you 're a close second).  I also like watching movies and the occasional Netflix binge session."}],
+      "fun_facts": [
+        "A house I lived in growing up was in the background of MTV Cribs...Trick Daddy's episode.",
         "I was born in Miami a few days before my family's house was destroyed by Hurricane Andrew.",
-        "I ruptured my achilles playing soccer right before I started at 540.co"
-      ]
+        "I ruptured my achilles playing soccer right before I started at 540.co"]
     },
 
     "team_members": {
@@ -498,22 +412,15 @@
       "education": ["Carnegie Mellon University - Mathematics/Computer Science"],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "My first paying job was bagging groceries at a local supermarket.  My first job in the field was doing technical support for an agency within the DOD.  After that, I've been all over the industry, as developer, lead, trainer, cat herder, you name it."
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "To my mind, the best thing about 540 is the way they empower us to succeed (through tools, coworkers, and support) while still allowing us to make the important decisions."
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "I try to stay active in my spare time, doing such things as hiking, sailing, and <s>inclined ice skating</s> skiing."
-        }
-      ],
+          "answer": "My first paying job was bagging groceries at a local supermarket.  My first job in the field was doing technical support for an agency within the DOD.  After that, I've been all over the industry, as developer, lead, trainer, cat herder, you name it."},
+         {"question": "What do you like about 540?",
+          "answer": "To my mind, the best thing about 540 is the way they empower us to succeed (through tools, coworkers, and support) while still allowing us to make the important decisions."},
+         {"question": "What do you do in your spare time?",
+          "answer": "I try to stay active in my spare time, doing such things as hiking, sailing, and <s>inclined ice skating</s> skiing."}],
       "fun_facts": [
         "I used to play the trumpet for fun (and even profit, a few times)!  No more, but my musical tastes still tend to be a bit... eclectic as a result.",
         "I've been referred to as \"jovial\" in reviews before.  I <em>think</em> that's a good thing.",
-        "I've fallen off a chairlift before.  Let's just say I know how Homer Simpson feels."
-      ]
+        "I've fallen off a chairlift before.  Let's just say I know how Homer Simpson feels."]
     },
 
     "team_members": {
@@ -528,26 +435,20 @@
       "github_path": "https://github.com/gthiet",
       "expertise": "I'm full stack engineer, a jack of all trades.",
       "interests": "Crossfit, Gaming, Finance, Music, Sports, Traveling, anything tech.",
-      "education": ["George Mason University - B.S. Information Technology",
-        "George Mason University - M.S. Applied Information Technology"
-      ],
+      "education": [
+        "George Mason University - B.S. Information Technology",
+        "George Mason University - M.S. Applied Information Technology"],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "My first job was IT support for a bank."
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "Everyone wants to learn and is interested in technology."
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "I work on side projects and consult."
-        }
-      ],
-      "fun_facts": ["I play flag football 4 days a week.",
+          "answer": "My first job was IT support for a bank."},
+         {"question": "What do you like about 540?",
+          "answer": "Everyone wants to learn and is interested in technology."},
+         {"question": "What do you do in your spare time?",
+          "answer": "I work on side projects and consult."}],
+      "fun_facts": [
+        "I play flag football 4 days a week.",
         "I’m recovering gaming addict.",
-        "I love Crossfit."
-      ]
+        "I love Crossfit."]
     },
 
     "team_members": {
@@ -565,21 +466,15 @@
       "education": ["Georgia Institute of Technology (Georgia Tech) - B.S. Electrical Engineering"],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "EchoStar (Dish Network) - Digital Hardware Engineer"
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "The people. Everyone works really hard and takes pride in what they do."
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "Shoot guns, Drink beer, Cruise"
-        }
-      ],
-      "fun_facts": ["I was a torchbearer for the 1996 Summer Olympics (Atlanta).",
+          "answer": "EchoStar (Dish Network) - Digital Hardware Engineer"},
+         {"question": "What do you like about 540?",
+          "answer": "The people. Everyone works really hard and takes pride in what they do."},
+         {"question": "What do you do in your spare time?",
+          "answer": "Shoot guns, Drink beer, Cruise"}],
+      "fun_facts": [
+        "I was a torchbearer for the 1996 Summer Olympics (Atlanta).",
         "I am an Eagle Scout (Boy Scouts of America).",
-        "I hate animated movies."
-      ]
+        "I hate animated movies."]
     },
 
     "team_members": {
@@ -597,21 +492,15 @@
       "education": ["James Madison University - BS in Integrated Science & Technology"],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "My first job was a mover. I helped pack up and move our local middle school when I was in high school."
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "I love the push to bring a little bit of Silicon Valley to the Beltway."
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "When I'm not working, I'm hanging out at the gym or going to local sporting events."
-        }
-      ],
-      "fun_facts": ["I am a CrossFit Level 1 Trainer.",
+          "answer": "My first job was a mover. I helped pack up and move our local middle school when I was in high school."},
+         {"question": "What do you like about 540?",
+          "answer": "I love the push to bring a little bit of Silicon Valley to the Beltway."},
+         {"question": "What do you do in your spare time?",
+          "answer": "When I'm not working, I'm hanging out at the gym or going to local sporting events."}],
+      "fun_facts": [
+        "I am a CrossFit Level 1 Trainer.",
         "I'm the only one in my family that isn't a teacher.",
-        "Every school I have attended has been <b style=\"color: #461D7C;\">purple</b> and <b style=\"color:#FDD023;\">gold"
-      ]
+        "Every school I have attended has been <b style=\"color: #461D7C;\">purple</b> and <b style=\"color:#FDD023;\">gold"]
     },
 
     "team_members": {
@@ -629,21 +518,15 @@
       "education": ["University of Maryland College Park"],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "I worked at a college book store."
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "The people, the startup feel, and the different approach to solving problems in the government space."
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "I'm probably out running, hiking, indoor/outdoor rock climbing, or hanging out with friends/family."
-        }
-      ],
-      "fun_facts": ["I love traveling I once took a month and half road trip across the United States.",
+          "answer": "I worked at a college book store."},
+         {"question": "What do you like about 540?",
+          "answer": "The people, the startup feel, and the different approach to solving problems in the government space."},
+        {"question": "What do you do in your spare time?",
+          "answer": "I'm probably out running, hiking, indoor/outdoor rock climbing, or hanging out with friends/family."}],
+      "fun_facts": [
+        "I love traveling I once took a month and half road trip across the United States.",
         "I come from a big family, I have 11 siblings.",
-        "I have twice ran a distance relay race where our team of 12 ran 200 miles in 2 days with very little sleep."
-      ]
+        "I have twice ran a distance relay race where our team of 12 ran 200 miles in 2 days with very little sleep."]
     },
 
     "team_members": {
@@ -661,22 +544,15 @@
       "education": ["Abilene Christian University - BS in Integrated Marketing and Communications"],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "I was a camp counselor for a couple summers during my high school years at a camp called Pine Cove in Tyler, Texas. Basic responsibility was to be a 16 year old running around with a bunch of 8 year olds so that when their parents picked them up at the end of the day they were exhausted. It was a great job.What do you like about 540?"
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "I enjoy the people I've been working with, and I love the mission to help the government be more effective and efficient. I believe we're on the forefront of a revolution in how government contracts are executed, and I hope we're helping the government be more effective as well as saving taxpayers a lot of money."
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "I'm always playing around with new technology, and I love sitting around on a Saturday drinking a few beers and smoking a brisket with friends. My wife and I also travel as much as we can."
-        }
-      ],
+          "answer": "I was a camp counselor for a couple summers during my high school years at a camp called Pine Cove in Tyler, Texas. Basic responsibility was to be a 16 year old running around with a bunch of 8 year olds so that when their parents picked them up at the end of the day they were exhausted. It was a great job.What do you like about 540?"},
+         {"question": "What do you like about 540?",
+          "answer": "I enjoy the people I've been working with, and I love the mission to help the government be more effective and efficient. I believe we're on the forefront of a revolution in how government contracts are executed, and I hope we're helping the government be more effective as well as saving taxpayers a lot of money."},
+         {"question": "What do you do in your spare time?",
+          "answer": "I'm always playing around with new technology, and I love sitting around on a Saturday drinking a few beers and smoking a brisket with friends. My wife and I also travel as much as we can."}],
       "fun_facts": [
         "I love music, especially live music. To me there's nothing like watching a live performance of a song you love, or stumbling onto a new band just because you happened to be there one night when they performed.",
         "I grew up in Garland, Texas, where King of the Hill is based on (they live in Arland, Texas). I find it incredibly accurate and enjoyable to watch.",
-        "Even though I love politics, history, and music, it took my wife months to convince me to listen to the Hamilton soundtrack. She was right, it's excellent."
-      ]
+        "Even though I love politics, history, and music, it took my wife months to convince me to listen to the Hamilton soundtrack. She was right, it's excellent."]
     },
 
     "team_members": {
@@ -694,21 +570,15 @@
       "education": ["SUNY College at Cortland"],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "I was a soccer referee for a house league."
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "The problem solving oriented attitude of the enterprise and its people."
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "I'm usually in a black hole of binging new music or rediscovering old music. Otherwise, I'm enjoying the great outdoors."
-        }
-      ],
-      "fun_facts": ["I've cracked my head open three times in the same spot.",
+          "answer": "I was a soccer referee for a house league."},
+         {"question": "What do you like about 540?",
+          "answer": "The problem solving oriented attitude of the enterprise and its people."},
+         {"question": "What do you do in your spare time?",
+          "answer": "I'm usually in a black hole of binging new music or rediscovering old music. Otherwise, I'm enjoying the great outdoors."}],
+      "fun_facts": [
+        "I've cracked my head open three times in the same spot.",
         "I'm a proud fan of the greatest NFL team in history, the Buffalo Bills.",
-        "I find grocery shopping to be a soothing activity."
-      ]
+        "I find grocery shopping to be a soothing activity."]
     },
 
     "team_members": {
@@ -726,21 +596,15 @@
       "education": ["James Madison University - B.S. Integrated Science and Technology"],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "Golf Course Range Assistant"
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "The collaboration of multiple styles and personalities all working as one team."
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "Watch movies and usually play with my dog."
-        }
-      ],
-      "fun_facts": ["I have a black lab named Gunner.",
+          "answer": "Golf Course Range Assistant"},
+         {"question": "What do you like about 540?",
+          "answer": "The collaboration of multiple styles and personalities all working as one team."},
+         {"question": "What do you do in your spare time?",
+          "answer": "Watch movies and usually play with my dog."}],
+      "fun_facts": [
+        "I have a black lab named Gunner.",
         "I love cookies.",
-        "My favorite film is Toy Story."
-      ]
+        "My favorite film is Toy Story."]
     },
 
     "team_members": {
@@ -755,26 +619,18 @@
       "github_path": "https://github.com/ndrinaldi",
       "expertise": "Object Oriented Programming, Web Developement, C++, Java, Pyhton, and PHP.",
       "interests": "Beaches, Traveling, People, Technology, The Internet, Programming, Governemnent, Badminton, Gaming, and Family.",
-      "education": [
-        "Roanoke College - Persuing a Bachelors in Theoretical Computer Science with a minor in Mathematics."
-      ],
+      "education": ["Roanoke College - Persuing a Bachelors in Theoretical Computer Science with a minor in Mathematics."],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "I tended to the needs of physically and congitively impaired young adults in a camp setting. I was tasked with thinking of and conducting creative activities that participants could contribute to, in any way."
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "his company is filled with young, intelligent learners that yearn for the opportunity to impliment new technologies. It is a small, fast moving enviroment that is headed to great places."
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "I paly badminton and table tennis with my friends. I enjoy almost all games, but ones of the electronic type tend to be most convenient for me."
-        }
-      ],
-      "fun_facts": ["I have four younger sisters.",
+          "answer": "I tended to the needs of physically and congitively impaired young adults in a camp setting. I was tasked with thinking of and conducting creative activities that participants could contribute to, in any way."},
+         {"question": "What do you like about 540?",
+          "answer": "his company is filled with young, intelligent learners that yearn for the opportunity to impliment new technologies. It is a small, fast moving enviroment that is headed to great places."},
+         {"question": "What do you do in your spare time?",
+          "answer": "I paly badminton and table tennis with my friends. I enjoy almost all games, but ones of the electronic type tend to be most convenient for me."}],
+      "fun_facts": [
+        "I have four younger sisters.",
         "I have been a part of seven different sports teams (Badminton, Football, Lacrosse, Swimming, Tennis, Basketball, and Soccer).",
-        "I compete, on a regional level, in tourniments playing a game from 2001 for the Nintendo GameCube."
-      ]
+        "I compete, on a regional level, in tourniments playing a game from 2001 for the Nintendo GameCube."]
     },
 
     "team_members": {
@@ -789,26 +645,18 @@
       "github_path": "https://github.com/patricknowlan",
       "expertise": "Application Prototyping, Full Stack Development, AngularJS, REST/SOAP APIs, Data Analytics, Data Visualization, Product Management, Project Management, and BD",
       "interests": "Hiking, Movies, Learning, Sandwiches, Boating, Android, Fishing, Roadtrips, Cooking, Fitness, Camping, Industrial Settings, Adventures, Grey, Biking, Craft Beer, Coffee, People, National Parks, New Technology",
-      "education": [
-        "James Madison University - BS in Integrated Science & Technology - Information Management & Telecommunications"
-      ],
+      "education": ["James Madison University - BS in Integrated Science & Technology - Information Management & Telecommunications"],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "If there's new tech out there in the wild, someone on our team is taking it for a test drive. We are always learning something new."
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "If there's new tech out there in the wild, someone on our team is taking it for a test drive. We are always learning something new."
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "You can usually find me at the gym, in a local coffee shop taking online programming classes, skiing in the winter, and out on my boat in the summer. I also like to do charity web development for local companies / non-profits."
-        }
-      ],
-      "fun_facts": ["I love science.",
+          "answer": "If there's new tech out there in the wild, someone on our team is taking it for a test drive. We are always learning something new."},
+         {"question": "What do you like about 540?",
+          "answer": "If there's new tech out there in the wild, someone on our team is taking it for a test drive. We are always learning something new."},
+         {"question": "What do you do in your spare time?",
+          "answer": "You can usually find me at the gym, in a local coffee shop taking online programming classes, skiing in the winter, and out on my boat in the summer. I also like to do charity web development for local companies / non-profits."}],
+      "fun_facts": [
+        "I love science.",
         "I have traveled the United States for a straight month in a mini van.",
-        "I wish restauraunts served breakfast all day."
-      ]
+        "I wish restauraunts served breakfast all day."]
     },
 
     "team_members": {
@@ -823,26 +671,20 @@
       "github_path": "https://github.com/SeanPlacchetti",
       "expertise": "#webdev #django #scrum #devops #selinux #infosec",
       "interests": "cybersecurity, automation, history, lean development",
-      "education": ["BS in Computer Science from the University of Mary Washington",
-        "BA in Philosophy from the University of Mary Washington"
-      ],
+      "education": [
+        "BS in Computer Science from the University of Mary Washington",
+        "BA in Philosophy from the University of Mary Washington"],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "Making snow-cones for people from a cart at the beach."
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "I'm a big fan of small-scale contractors that focus on customer priorities, shifting momentum and staying agile is what modern software development is all about."
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "I enjoy reading, working on my home (giving Home Depot all my money), cycling, and spending time with my wife."
-        }
-      ],
-      "fun_facts": ["I've worked as the music director of a radio station, an apprentice butcher, and a bartender.",
+          "answer": "Making snow-cones for people from a cart at the beach."},
+         {"question": "What do you like about 540?",
+          "answer": "I'm a big fan of small-scale contractors that focus on customer priorities, shifting momentum and staying agile is what modern software development is all about."},
+         {"question": "What do you do in your spare time?",
+          "answer": "I enjoy reading, working on my home (giving Home Depot all my money), cycling, and spending time with my wife."}],
+      "fun_facts": [
+        "I've worked as the music director of a radio station, an apprentice butcher, and a bartender.",
         "I learned to code using R.",
-        "I could eat Ethiopian food at every meal."
-      ]
+        "I could eat Ethiopian food at every meal."]
     },
 
     "team_members": {
@@ -857,26 +699,18 @@
       "github_path": "https://github.com/540co",
       "expertise": "I build Relational and OLAP databases and Business Intelligence dashboards using Oracle Technologies. I have experience in working all phases of the Software Development Life Cycle. I have experience in Product/Project Management and Operational Management. I have expertise in building Datawarehouses/Datamarts and experienced in Data migration/Data Analysis/Data Mining/Forecasting based on Historical Trends.",
       "interests": "Know about new technology, Learning, Go Green, Finance, Movies, and Workout",
-      "education": [
-        "I have a Bachelor Degree in Engineering (Electronics and Telecommunications). I attended school in India."
-      ],
+      "education": ["I have a Bachelor Degree in Engineering (Electronics and Telecommunications). I attended school in India."],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "My first job was a Software Instructor."
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "Fast Pace Decision Making, Flexible Work Environment, Smart People, Strong Network"
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "Reading news related to technology, economy, finance, and politics. I like to watch movies/TV and travel"
-        }
-      ],
-      "fun_facts": ["I speak 3 languages",
+          "answer": "My first job was a Software Instructor."},
+         {"question": "What do you like about 540?",
+          "answer": "Fast Pace Decision Making, Flexible Work Environment, Smart People, Strong Network"},
+         {"question": "What do you do in your spare time?",
+          "answer": "Reading news related to technology, economy, finance, and politics. I like to watch movies/TV and travel"}],
+      "fun_facts": [
+        "I speak 3 languages",
         "I made $70 dollars per month on my first job (outside US) and saved 30% of my salary each month.",
-        "I was a vegetarian until I was 15."
-      ]
+        "I was a vegetarian until I was 15."]
     },
 
     "team_members": {
@@ -894,23 +728,15 @@
       "education": ["Auburn University - Bachelors Degree in Software Engineer (BSWE) - graduated in December 2004"],
       "qa": [{
           "question": "What was your first Job?",
-          "answer": "My first paying job was actually as an umpire for youth baseball at which I learned one valuable lesson (every 12-yr old kid sliding into home is safe according to their mother). My first \"
-          REAL\" job out of college was as a Software Engineer for Dish Network (Echostar). I worked on the software that powered the set-top-boxes (STBs) that are in living rooms of Dish Network customers. I later transitioned to contribute to (and eventually lead) the team that built web-based apps that ran on Dish STBs (games, social media, news). In fact, if you have a Hopper and have ever player the BlackJack and Scrambler games, I was the primary developer for both... and I contributed and led the team on many of the other apps."
-        },
-        {
-          "question": "What do you like about 540?",
-          "answer": "The unlimited amounts of 5hour energy and Red Bull....... oh, and the people!"
-        },
-        {
-          "question": "What do you do in your spare time?",
-          "answer": "Between work, naps, and meals.... I'm a movie guy. I watch a lot of movies/tv so that I can keep up with folks in conversations. On the weekend, you'll catch me hanging out with friends and if it's warm enough outside, I'll be getting a golfer's tan. I also enjoy yearly trips to \"the beach\", \"the lake\", and \"the Vegas\"."
-        }
-      ],
+          "answer": "My first paying job was actually as an umpire for youth baseball at which I learned one valuable lesson (every 12-yr old kid sliding into home is safe according to their mother). My first \"REAL\" job out of college was as a Software Engineer for Dish Network (Echostar). I worked on the software that powered the set-top-boxes (STBs) that are in living rooms of Dish Network customers. I later transitioned to contribute to (and eventually lead) the team that built web-based apps that ran on Dish STBs (games, social media, news). In fact, if you have a Hopper and have ever player the BlackJack and Scrambler games, I was the primary developer for both... and I contributed and led the team on many of the other apps."},
+         {"question": "What do you like about 540?",
+          "answer": "The unlimited amounts of 5hour energy and Red Bull....... oh, and the people!"},
+         {"question": "What do you do in your spare time?",
+          "answer": "Between work, naps, and meals.... I'm a movie guy. I watch a lot of movies/tv so that I can keep up with folks in conversations. On the weekend, you'll catch me hanging out with friends and if it's warm enough outside, I'll be getting a golfer's tan. I also enjoy yearly trips to \"the beach\", \"the lake\", and \"the Vegas\"."}],
       "fun_facts": [
         "I scream like a little girl on \"freefall-type\" amusement park rides... most particularly Tower of Terror in Disney World (Orlando).",
         "I've only seen one President in person, and that was when George W. Bush came to speak at Auburn University. He began the speech with a \"War Eagle!\" and the rest is history...",
-        "I went to Space Camp as a kid and had serious ambitions to become an astronaut. They told us that our generation of astronaut would get to walk on Mars...... TBD."
-      ]
+        "I went to Space Camp as a kid and had serious ambitions to become an astronaut. They told us that our generation of astronaut would get to walk on Mars...... TBD."]
     },
 
     "clients": {
@@ -958,21 +784,14 @@
     "contract_vehicles": {
       "id": 0,
       "name": "VA Advisor",
-      "description": "VA Agile Delivery of VA Imminent Strategic and Operational Requirements (ADVISOR) contract. This 5-year multi-award IDIQ is designed to assist VA programs execute cross-agency initiatives and achieve strategic priorities that
-      ultimately improve outcomes
-      for VA customers.
-      ",
+      "description": "VA Agile Delivery of VA Imminent Strategic and Operational Requirements (ADVISOR) contract. This 5-year multi-award IDIQ is designed to assist VA programs execute cross-agency initiatives and achieve strategic priorities that ultimately improve outcomes for VA customers.",
       "contract_path": "null"
     },
 
     "contract_vehicles": {
       "id": 1,
       "name": "ATSS",
-      "description": "Providing OUSD(AT&L)(ARA) Property and Equipment (P&E) Policy Office with technical and management to support the overall goals of DoD financial transparency. Assisting the Department of Defense to improve accountability
-      practices,
-      increase auditability,
-      and guide reporting practices and procedures.
-      ",
+      "description": "Providing OUSD(AT&L)(ARA) Property and Equipment (P&E) Policy Office with technical and management to support the overall goals of DoD financial transparency. Assisting the Department of Defense to improve accountability practices, increase auditability, and guide reporting practices and procedures.",
       "contract_path": "null"
     },
 

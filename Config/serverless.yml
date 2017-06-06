@@ -1,0 +1,85 @@
+service: aws-540api-Config
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:*:*"
+
+functions:
+
+  config_post:
+    handler: config.post
+    events:
+      - http:
+          path: config
+          method: post
+          cors: true
+
+  config_get:
+    handler: config.list
+    events:
+      - http:
+          path: config
+          method: get
+          cors: true
+
+  config_get_instance:
+    handler: config.get
+    events:
+      - http:
+          path: config/{id}
+          method: get
+          cors: true
+
+  config_put:
+    handler: config.put
+    events:
+      - http:
+          path: config/{id}
+          method: put
+          cors: true
+
+  config_patch:
+    handler: config.patch
+    events:
+      - http:
+          path: config/{id}
+          method: patch
+          cors: true
+
+  config_delete:
+    handler: config.delete
+    events:
+      - http:
+          path: config/{id}
+          method: delete
+          cors: true
+
+resources:
+  Resources:
+    config:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType: N
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: Config

@@ -1,0 +1,86 @@
+service: aws-540api-Projects
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:*:*"
+
+functions:
+
+  projects_post:
+    handler: projects.post
+    events:
+      - http:
+          path: projects
+          method: post
+          cors: true
+
+  projects_get:
+    handler: projects.list
+    events:
+      - http:
+          path: projects
+          method: get
+          cors: true
+
+  projects_get_instance:
+    handler: projects.get
+    events:
+      - http:
+          path: projects/{id}
+          method: get
+          cors: true
+
+  projects_put:
+    handler: projects.put
+    events:
+      - http:
+          path: projects/{id}
+          method: put
+          cors: true
+
+  projects_patch:
+    handler: projects.patch
+    events:
+      - http:
+          path: projects/{id}
+          method: patch
+          cors: true
+
+  projects_delete:
+    handler: projects.delete
+    events:
+      - http:
+          path: projects/{id}
+          method: delete
+          cors: true
+
+resources:
+  Resources:
+
+    Projects:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType: N
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: Projects

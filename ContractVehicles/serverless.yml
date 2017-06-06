@@ -1,0 +1,85 @@
+service: aws-540pi-ContractVehicles
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:*:*"
+
+functions:
+
+  contract_vehicles_post:
+    handler: contract_vehicles.post
+    events:
+      - http:
+          path: contract_vehicles
+          method: post
+          cors: true
+
+  contract_vehicles_get:
+    handler: contract_vehicles.list
+    events:
+      - http:
+          path: contract_vehicles
+          method: get
+          cors: true
+
+  contract_vehicles_get_instance:
+    handler: contract_vehicles.get
+    events:
+      - http:
+          path: contract_vehicles/{id}
+          method: get
+          cors: true
+
+  contract_vehicles_put:
+    handler: contract_vehicles.put
+    events:
+      - http:
+          path: contract_vehicles/{id}
+          method: put
+          cors: true
+
+  contract_vehicles_patch:
+    handler: contract_vehicles.patch
+    events:
+      - http:
+          path: contract_vehicles/{id}
+          method: patch
+          cors: true
+
+  contract_vehicles_delete:
+    handler: contract_vehicles.delete
+    events:
+      - http:
+          path: contract_vehicles/{id}
+          method: delete
+          cors: true
+
+resources:
+  Resources:
+    ContractVehicles:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType: N
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: ContractVehicles
