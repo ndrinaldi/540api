@@ -1,8 +1,8 @@
 {
   "service": {
-    "service": "aws-540api-Services",
+    "service": "aws-540api-Config",
     "serviceObject": {
-      "name": "aws-540api-Services"
+      "name": "aws-540api-Config"
     },
     "provider": {
       "stage": "dev",
@@ -33,40 +33,40 @@
           "ServerlessDeploymentBucket": {
             "Type": "AWS::S3::Bucket"
           },
-          "ServicesUnderscorepostLogGroup": {
+          "ConfigUnderscorepostLogGroup": {
             "Type": "AWS::Logs::LogGroup",
             "Properties": {
-              "LogGroupName": "/aws/lambda/aws-540api-Services-dev-services_post"
+              "LogGroupName": "/aws/lambda/aws-540api-Config-dev-config_post"
             }
           },
-          "ServicesUnderscoregetLogGroup": {
+          "ConfigUnderscoregetLogGroup": {
             "Type": "AWS::Logs::LogGroup",
             "Properties": {
-              "LogGroupName": "/aws/lambda/aws-540api-Services-dev-services_get"
+              "LogGroupName": "/aws/lambda/aws-540api-Config-dev-config_get"
             }
           },
-          "ServicesUnderscoregetUnderscoreinstanceLogGroup": {
+          "ConfigUnderscoregetUnderscoreinstanceLogGroup": {
             "Type": "AWS::Logs::LogGroup",
             "Properties": {
-              "LogGroupName": "/aws/lambda/aws-540api-Services-dev-services_get_instance"
+              "LogGroupName": "/aws/lambda/aws-540api-Config-dev-config_get_instance"
             }
           },
-          "ServicesUnderscoreputLogGroup": {
+          "ConfigUnderscoreputLogGroup": {
             "Type": "AWS::Logs::LogGroup",
             "Properties": {
-              "LogGroupName": "/aws/lambda/aws-540api-Services-dev-services_put"
+              "LogGroupName": "/aws/lambda/aws-540api-Config-dev-config_put"
             }
           },
-          "ServicesUnderscorepatchLogGroup": {
+          "ConfigUnderscorepatchLogGroup": {
             "Type": "AWS::Logs::LogGroup",
             "Properties": {
-              "LogGroupName": "/aws/lambda/aws-540api-Services-dev-services_patch"
+              "LogGroupName": "/aws/lambda/aws-540api-Config-dev-config_patch"
             }
           },
-          "ServicesUnderscoredeleteLogGroup": {
+          "ConfigUnderscoredeleteLogGroup": {
             "Type": "AWS::Logs::LogGroup",
             "Properties": {
-              "LogGroupName": "/aws/lambda/aws-540api-Services-dev-services_delete"
+              "LogGroupName": "/aws/lambda/aws-540api-Config-dev-config_delete"
             }
           },
           "IamRoleLambdaExecution": {
@@ -95,7 +95,7 @@
                       "-",
                       [
                         "dev",
-                        "aws-540api-Services",
+                        "aws-540api-Config",
                         "lambda"
                       ]
                     ]
@@ -110,22 +110,22 @@
                         ],
                         "Resource": [
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_post:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_post:*"
                           },
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_get:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_get:*"
                           },
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_get_instance:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_get_instance:*"
                           },
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_put:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_put:*"
                           },
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_patch:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_patch:*"
                           },
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_delete:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_delete:*"
                           }
                         ]
                       },
@@ -136,22 +136,22 @@
                         ],
                         "Resource": [
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_post:*:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_post:*:*"
                           },
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_get:*:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_get:*:*"
                           },
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_get_instance:*:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_get_instance:*:*"
                           },
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_put:*:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_put:*:*"
                           },
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_patch:*:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_patch:*:*"
                           },
                           {
-                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Services-dev-services_delete:*:*"
+                            "Fn::Sub": "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/aws-540api-Config-dev-config_delete:*:*"
                           }
                         ]
                       },
@@ -177,7 +177,7 @@
                 "Fn::Join": [
                   "-",
                   [
-                    "aws-540api-Services",
+                    "aws-540api-Config",
                     "dev",
                     "us-east-1",
                     "lambdaRole"
@@ -186,17 +186,17 @@
               }
             }
           },
-          "ServicesUnderscorepostLambdaFunction": {
+          "ConfigUnderscorepostLambdaFunction": {
             "Type": "AWS::Lambda::Function",
             "Properties": {
               "Code": {
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Services/dev/1497019150783-2017-06-09T14:39:10.783Z/aws-540api-Services.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1497019227792-2017-06-09T14:40:27.792Z/aws-540api-Config.zip"
               },
-              "FunctionName": "aws-540api-Services-dev-services_post",
-              "Handler": "services.post",
+              "FunctionName": "aws-540api-Config-dev-config_post",
+              "Handler": "config.post",
               "MemorySize": 1024,
               "Role": {
                 "Fn::GetAtt": [
@@ -208,31 +208,31 @@
               "Timeout": 6
             },
             "DependsOn": [
-              "ServicesUnderscorepostLogGroup",
+              "ConfigUnderscorepostLogGroup",
               "IamRoleLambdaExecution"
             ]
           },
-          "ServicesUnderscorepostLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI": {
+          "ConfigUnderscorepostLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
-                "Ref": "ServicesUnderscorepostLambdaFunction"
+                "Ref": "ConfigUnderscorepostLambdaFunction"
               },
-              "CodeSha256": "Bg+kevcyE0ZNMSLWch7CHylDS2W/PGuBmvgXpXY4DlI="
+              "CodeSha256": "F5+S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg="
             }
           },
-          "ServicesUnderscoregetLambdaFunction": {
+          "ConfigUnderscoregetLambdaFunction": {
             "Type": "AWS::Lambda::Function",
             "Properties": {
               "Code": {
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Services/dev/1497019150783-2017-06-09T14:39:10.783Z/aws-540api-Services.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1497019227792-2017-06-09T14:40:27.792Z/aws-540api-Config.zip"
               },
-              "FunctionName": "aws-540api-Services-dev-services_get",
-              "Handler": "services.list",
+              "FunctionName": "aws-540api-Config-dev-config_get",
+              "Handler": "config.list",
               "MemorySize": 1024,
               "Role": {
                 "Fn::GetAtt": [
@@ -244,31 +244,31 @@
               "Timeout": 6
             },
             "DependsOn": [
-              "ServicesUnderscoregetLogGroup",
+              "ConfigUnderscoregetLogGroup",
               "IamRoleLambdaExecution"
             ]
           },
-          "ServicesUnderscoregetLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI": {
+          "ConfigUnderscoregetLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
-                "Ref": "ServicesUnderscoregetLambdaFunction"
+                "Ref": "ConfigUnderscoregetLambdaFunction"
               },
-              "CodeSha256": "Bg+kevcyE0ZNMSLWch7CHylDS2W/PGuBmvgXpXY4DlI="
+              "CodeSha256": "F5+S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg="
             }
           },
-          "ServicesUnderscoregetUnderscoreinstanceLambdaFunction": {
+          "ConfigUnderscoregetUnderscoreinstanceLambdaFunction": {
             "Type": "AWS::Lambda::Function",
             "Properties": {
               "Code": {
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Services/dev/1497019150783-2017-06-09T14:39:10.783Z/aws-540api-Services.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1497019227792-2017-06-09T14:40:27.792Z/aws-540api-Config.zip"
               },
-              "FunctionName": "aws-540api-Services-dev-services_get_instance",
-              "Handler": "services.get",
+              "FunctionName": "aws-540api-Config-dev-config_get_instance",
+              "Handler": "config.get",
               "MemorySize": 1024,
               "Role": {
                 "Fn::GetAtt": [
@@ -280,31 +280,31 @@
               "Timeout": 6
             },
             "DependsOn": [
-              "ServicesUnderscoregetUnderscoreinstanceLogGroup",
+              "ConfigUnderscoregetUnderscoreinstanceLogGroup",
               "IamRoleLambdaExecution"
             ]
           },
-          "ServicesUnderscoregetUnderscoreinstanceLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI": {
+          "ConfigUnderscoregetUnderscoreinstanceLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
-                "Ref": "ServicesUnderscoregetUnderscoreinstanceLambdaFunction"
+                "Ref": "ConfigUnderscoregetUnderscoreinstanceLambdaFunction"
               },
-              "CodeSha256": "Bg+kevcyE0ZNMSLWch7CHylDS2W/PGuBmvgXpXY4DlI="
+              "CodeSha256": "F5+S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg="
             }
           },
-          "ServicesUnderscoreputLambdaFunction": {
+          "ConfigUnderscoreputLambdaFunction": {
             "Type": "AWS::Lambda::Function",
             "Properties": {
               "Code": {
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Services/dev/1497019150783-2017-06-09T14:39:10.783Z/aws-540api-Services.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1497019227792-2017-06-09T14:40:27.792Z/aws-540api-Config.zip"
               },
-              "FunctionName": "aws-540api-Services-dev-services_put",
-              "Handler": "services.put",
+              "FunctionName": "aws-540api-Config-dev-config_put",
+              "Handler": "config.put",
               "MemorySize": 1024,
               "Role": {
                 "Fn::GetAtt": [
@@ -316,31 +316,31 @@
               "Timeout": 6
             },
             "DependsOn": [
-              "ServicesUnderscoreputLogGroup",
+              "ConfigUnderscoreputLogGroup",
               "IamRoleLambdaExecution"
             ]
           },
-          "ServicesUnderscoreputLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI": {
+          "ConfigUnderscoreputLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
-                "Ref": "ServicesUnderscoreputLambdaFunction"
+                "Ref": "ConfigUnderscoreputLambdaFunction"
               },
-              "CodeSha256": "Bg+kevcyE0ZNMSLWch7CHylDS2W/PGuBmvgXpXY4DlI="
+              "CodeSha256": "F5+S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg="
             }
           },
-          "ServicesUnderscorepatchLambdaFunction": {
+          "ConfigUnderscorepatchLambdaFunction": {
             "Type": "AWS::Lambda::Function",
             "Properties": {
               "Code": {
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Services/dev/1497019150783-2017-06-09T14:39:10.783Z/aws-540api-Services.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1497019227792-2017-06-09T14:40:27.792Z/aws-540api-Config.zip"
               },
-              "FunctionName": "aws-540api-Services-dev-services_patch",
-              "Handler": "services.patch",
+              "FunctionName": "aws-540api-Config-dev-config_patch",
+              "Handler": "config.patch",
               "MemorySize": 1024,
               "Role": {
                 "Fn::GetAtt": [
@@ -352,31 +352,31 @@
               "Timeout": 6
             },
             "DependsOn": [
-              "ServicesUnderscorepatchLogGroup",
+              "ConfigUnderscorepatchLogGroup",
               "IamRoleLambdaExecution"
             ]
           },
-          "ServicesUnderscorepatchLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI": {
+          "ConfigUnderscorepatchLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
-                "Ref": "ServicesUnderscorepatchLambdaFunction"
+                "Ref": "ConfigUnderscorepatchLambdaFunction"
               },
-              "CodeSha256": "Bg+kevcyE0ZNMSLWch7CHylDS2W/PGuBmvgXpXY4DlI="
+              "CodeSha256": "F5+S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg="
             }
           },
-          "ServicesUnderscoredeleteLambdaFunction": {
+          "ConfigUnderscoredeleteLambdaFunction": {
             "Type": "AWS::Lambda::Function",
             "Properties": {
               "Code": {
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Services/dev/1497019150783-2017-06-09T14:39:10.783Z/aws-540api-Services.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1497019227792-2017-06-09T14:40:27.792Z/aws-540api-Config.zip"
               },
-              "FunctionName": "aws-540api-Services-dev-services_delete",
-              "Handler": "services.delete",
+              "FunctionName": "aws-540api-Config-dev-config_delete",
+              "Handler": "config.delete",
               "MemorySize": 1024,
               "Role": {
                 "Fn::GetAtt": [
@@ -388,27 +388,27 @@
               "Timeout": 6
             },
             "DependsOn": [
-              "ServicesUnderscoredeleteLogGroup",
+              "ConfigUnderscoredeleteLogGroup",
               "IamRoleLambdaExecution"
             ]
           },
-          "ServicesUnderscoredeleteLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI": {
+          "ConfigUnderscoredeleteLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
-                "Ref": "ServicesUnderscoredeleteLambdaFunction"
+                "Ref": "ConfigUnderscoredeleteLambdaFunction"
               },
-              "CodeSha256": "Bg+kevcyE0ZNMSLWch7CHylDS2W/PGuBmvgXpXY4DlI="
+              "CodeSha256": "F5+S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg="
             }
           },
           "ApiGatewayRestApi": {
             "Type": "AWS::ApiGateway::RestApi",
             "Properties": {
-              "Name": "dev-aws-540api-Services"
+              "Name": "dev-aws-540api-Config"
             }
           },
-          "ApiGatewayResourceServices": {
+          "ApiGatewayResourceConfig": {
             "Type": "AWS::ApiGateway::Resource",
             "Properties": {
               "ParentId": {
@@ -417,17 +417,17 @@
                   "RootResourceId"
                 ]
               },
-              "PathPart": "services",
+              "PathPart": "config",
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
               }
             }
           },
-          "ApiGatewayResourceServicesIdVar": {
+          "ApiGatewayResourceConfigIdVar": {
             "Type": "AWS::ApiGateway::Resource",
             "Properties": {
               "ParentId": {
-                "Ref": "ApiGatewayResourceServices"
+                "Ref": "ApiGatewayResourceConfig"
               },
               "PathPart": "{id}",
               "RestApiId": {
@@ -435,7 +435,7 @@
               }
             }
           },
-          "ApiGatewayMethodServicesOptions": {
+          "ApiGatewayMethodConfigOptions": {
             "Type": "AWS::ApiGateway::Method",
             "Properties": {
               "AuthorizationType": "NONE",
@@ -474,14 +474,14 @@
                 ]
               },
               "ResourceId": {
-                "Ref": "ApiGatewayResourceServices"
+                "Ref": "ApiGatewayResourceConfig"
               },
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
               }
             }
           },
-          "ApiGatewayMethodServicesIdVarOptions": {
+          "ApiGatewayMethodConfigIdVarOptions": {
             "Type": "AWS::ApiGateway::Method",
             "Properties": {
               "AuthorizationType": "NONE",
@@ -520,20 +520,20 @@
                 ]
               },
               "ResourceId": {
-                "Ref": "ApiGatewayResourceServicesIdVar"
+                "Ref": "ApiGatewayResourceConfigIdVar"
               },
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
               }
             }
           },
-          "ApiGatewayMethodServicesPost": {
+          "ApiGatewayMethodConfigPost": {
             "Type": "AWS::ApiGateway::Method",
             "Properties": {
               "HttpMethod": "POST",
               "RequestParameters": {},
               "ResourceId": {
-                "Ref": "ApiGatewayResourceServices"
+                "Ref": "ApiGatewayResourceConfig"
               },
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
@@ -553,7 +553,7 @@
                       ":lambda:path/2015-03-31/functions/",
                       {
                         "Fn::GetAtt": [
-                          "ServicesUnderscorepostLambdaFunction",
+                          "ConfigUnderscorepostLambdaFunction",
                           "Arn"
                         ]
                       },
@@ -565,13 +565,13 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayMethodServicesGet": {
+          "ApiGatewayMethodConfigGet": {
             "Type": "AWS::ApiGateway::Method",
             "Properties": {
               "HttpMethod": "GET",
               "RequestParameters": {},
               "ResourceId": {
-                "Ref": "ApiGatewayResourceServices"
+                "Ref": "ApiGatewayResourceConfig"
               },
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
@@ -591,7 +591,7 @@
                       ":lambda:path/2015-03-31/functions/",
                       {
                         "Fn::GetAtt": [
-                          "ServicesUnderscoregetLambdaFunction",
+                          "ConfigUnderscoregetLambdaFunction",
                           "Arn"
                         ]
                       },
@@ -603,13 +603,13 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayMethodServicesIdVarGet": {
+          "ApiGatewayMethodConfigIdVarGet": {
             "Type": "AWS::ApiGateway::Method",
             "Properties": {
               "HttpMethod": "GET",
               "RequestParameters": {},
               "ResourceId": {
-                "Ref": "ApiGatewayResourceServicesIdVar"
+                "Ref": "ApiGatewayResourceConfigIdVar"
               },
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
@@ -629,7 +629,7 @@
                       ":lambda:path/2015-03-31/functions/",
                       {
                         "Fn::GetAtt": [
-                          "ServicesUnderscoregetUnderscoreinstanceLambdaFunction",
+                          "ConfigUnderscoregetUnderscoreinstanceLambdaFunction",
                           "Arn"
                         ]
                       },
@@ -641,13 +641,13 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayMethodServicesIdVarPut": {
+          "ApiGatewayMethodConfigIdVarPut": {
             "Type": "AWS::ApiGateway::Method",
             "Properties": {
               "HttpMethod": "PUT",
               "RequestParameters": {},
               "ResourceId": {
-                "Ref": "ApiGatewayResourceServicesIdVar"
+                "Ref": "ApiGatewayResourceConfigIdVar"
               },
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
@@ -667,7 +667,7 @@
                       ":lambda:path/2015-03-31/functions/",
                       {
                         "Fn::GetAtt": [
-                          "ServicesUnderscoreputLambdaFunction",
+                          "ConfigUnderscoreputLambdaFunction",
                           "Arn"
                         ]
                       },
@@ -679,13 +679,13 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayMethodServicesIdVarPatch": {
+          "ApiGatewayMethodConfigIdVarPatch": {
             "Type": "AWS::ApiGateway::Method",
             "Properties": {
               "HttpMethod": "PATCH",
               "RequestParameters": {},
               "ResourceId": {
-                "Ref": "ApiGatewayResourceServicesIdVar"
+                "Ref": "ApiGatewayResourceConfigIdVar"
               },
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
@@ -705,7 +705,7 @@
                       ":lambda:path/2015-03-31/functions/",
                       {
                         "Fn::GetAtt": [
-                          "ServicesUnderscorepatchLambdaFunction",
+                          "ConfigUnderscorepatchLambdaFunction",
                           "Arn"
                         ]
                       },
@@ -717,13 +717,13 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayMethodServicesIdVarDelete": {
+          "ApiGatewayMethodConfigIdVarDelete": {
             "Type": "AWS::ApiGateway::Method",
             "Properties": {
               "HttpMethod": "DELETE",
               "RequestParameters": {},
               "ResourceId": {
-                "Ref": "ApiGatewayResourceServicesIdVar"
+                "Ref": "ApiGatewayResourceConfigIdVar"
               },
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
@@ -743,7 +743,7 @@
                       ":lambda:path/2015-03-31/functions/",
                       {
                         "Fn::GetAtt": [
-                          "ServicesUnderscoredeleteLambdaFunction",
+                          "ConfigUnderscoredeleteLambdaFunction",
                           "Arn"
                         ]
                       },
@@ -755,7 +755,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1497019150801": {
+          "ApiGatewayDeployment1497019227806": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -764,20 +764,20 @@
               "StageName": "dev"
             },
             "DependsOn": [
-              "ApiGatewayMethodServicesPost",
-              "ApiGatewayMethodServicesGet",
-              "ApiGatewayMethodServicesIdVarGet",
-              "ApiGatewayMethodServicesIdVarPut",
-              "ApiGatewayMethodServicesIdVarPatch",
-              "ApiGatewayMethodServicesIdVarDelete"
+              "ApiGatewayMethodConfigPost",
+              "ApiGatewayMethodConfigGet",
+              "ApiGatewayMethodConfigIdVarGet",
+              "ApiGatewayMethodConfigIdVarPut",
+              "ApiGatewayMethodConfigIdVarPatch",
+              "ApiGatewayMethodConfigIdVarDelete"
             ]
           },
-          "ServicesUnderscorepostLambdaPermissionApiGateway": {
+          "ConfigUnderscorepostLambdaPermissionApiGateway": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
               "FunctionName": {
                 "Fn::GetAtt": [
-                  "ServicesUnderscorepostLambdaFunction",
+                  "ConfigUnderscorepostLambdaFunction",
                   "Arn"
                 ]
               },
@@ -805,12 +805,12 @@
               }
             }
           },
-          "ServicesUnderscoregetLambdaPermissionApiGateway": {
+          "ConfigUnderscoregetLambdaPermissionApiGateway": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
               "FunctionName": {
                 "Fn::GetAtt": [
-                  "ServicesUnderscoregetLambdaFunction",
+                  "ConfigUnderscoregetLambdaFunction",
                   "Arn"
                 ]
               },
@@ -838,12 +838,12 @@
               }
             }
           },
-          "ServicesUnderscoregetUnderscoreinstanceLambdaPermissionApiGateway": {
+          "ConfigUnderscoregetUnderscoreinstanceLambdaPermissionApiGateway": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
               "FunctionName": {
                 "Fn::GetAtt": [
-                  "ServicesUnderscoregetUnderscoreinstanceLambdaFunction",
+                  "ConfigUnderscoregetUnderscoreinstanceLambdaFunction",
                   "Arn"
                 ]
               },
@@ -871,12 +871,12 @@
               }
             }
           },
-          "ServicesUnderscoreputLambdaPermissionApiGateway": {
+          "ConfigUnderscoreputLambdaPermissionApiGateway": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
               "FunctionName": {
                 "Fn::GetAtt": [
-                  "ServicesUnderscoreputLambdaFunction",
+                  "ConfigUnderscoreputLambdaFunction",
                   "Arn"
                 ]
               },
@@ -904,12 +904,12 @@
               }
             }
           },
-          "ServicesUnderscorepatchLambdaPermissionApiGateway": {
+          "ConfigUnderscorepatchLambdaPermissionApiGateway": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
               "FunctionName": {
                 "Fn::GetAtt": [
-                  "ServicesUnderscorepatchLambdaFunction",
+                  "ConfigUnderscorepatchLambdaFunction",
                   "Arn"
                 ]
               },
@@ -937,12 +937,12 @@
               }
             }
           },
-          "ServicesUnderscoredeleteLambdaPermissionApiGateway": {
+          "ConfigUnderscoredeleteLambdaPermissionApiGateway": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
               "FunctionName": {
                 "Fn::GetAtt": [
-                  "ServicesUnderscoredeleteLambdaFunction",
+                  "ConfigUnderscoredeleteLambdaFunction",
                   "Arn"
                 ]
               },
@@ -970,7 +970,7 @@
               }
             }
           },
-          "Services": {
+          "config": {
             "Type": "AWS::DynamoDB::Table",
             "DeletionPolicy": "Retain",
             "Properties": {
@@ -990,7 +990,7 @@
                 "ReadCapacityUnits": 1,
                 "WriteCapacityUnits": 1
               },
-              "TableName": "Services"
+              "TableName": "Config"
             }
           }
         },
@@ -1000,40 +1000,40 @@
               "Ref": "ServerlessDeploymentBucket"
             }
           },
-          "ServicesUnderscorepostLambdaFunctionQualifiedArn": {
+          "ConfigUnderscorepostLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ServicesUnderscorepostLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI"
+              "Ref": "ConfigUnderscorepostLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg"
             }
           },
-          "ServicesUnderscoregetLambdaFunctionQualifiedArn": {
+          "ConfigUnderscoregetLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ServicesUnderscoregetLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI"
+              "Ref": "ConfigUnderscoregetLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg"
             }
           },
-          "ServicesUnderscoregetUnderscoreinstanceLambdaFunctionQualifiedArn": {
+          "ConfigUnderscoregetUnderscoreinstanceLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ServicesUnderscoregetUnderscoreinstanceLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI"
+              "Ref": "ConfigUnderscoregetUnderscoreinstanceLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg"
             }
           },
-          "ServicesUnderscoreputLambdaFunctionQualifiedArn": {
+          "ConfigUnderscoreputLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ServicesUnderscoreputLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI"
+              "Ref": "ConfigUnderscoreputLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg"
             }
           },
-          "ServicesUnderscorepatchLambdaFunctionQualifiedArn": {
+          "ConfigUnderscorepatchLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ServicesUnderscorepatchLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI"
+              "Ref": "ConfigUnderscorepatchLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg"
             }
           },
-          "ServicesUnderscoredeleteLambdaFunctionQualifiedArn": {
+          "ConfigUnderscoredeleteLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ServicesUnderscoredeleteLambdaVersionBgkevcyE0ZNMSLWch7CHylDS2WPGuBmvgXpXY4DlI"
+              "Ref": "ConfigUnderscoredeleteLambdaVersionF5S8DI9ullGMRFF58CriCao5Zrfam7lwRn6bEorGfg"
             }
           },
           "ServiceEndpoint": {
@@ -1072,12 +1072,12 @@
       "vpc": {}
     },
     "functions": {
-      "services_post": {
-        "handler": "services.post",
+      "config_post": {
+        "handler": "config.post",
         "events": [
           {
             "http": {
-              "path": "services",
+              "path": "config",
               "method": "post",
               "cors": {
                 "origins": [
@@ -1101,16 +1101,16 @@
             }
           }
         ],
-        "name": "aws-540api-Services-dev-services_post",
+        "name": "aws-540api-Config-dev-config_post",
         "package": {},
         "vpc": {}
       },
-      "services_get": {
-        "handler": "services.list",
+      "config_get": {
+        "handler": "config.list",
         "events": [
           {
             "http": {
-              "path": "services",
+              "path": "config",
               "method": "get",
               "cors": {
                 "origins": [
@@ -1134,16 +1134,16 @@
             }
           }
         ],
-        "name": "aws-540api-Services-dev-services_get",
+        "name": "aws-540api-Config-dev-config_get",
         "package": {},
         "vpc": {}
       },
-      "services_get_instance": {
-        "handler": "services.get",
+      "config_get_instance": {
+        "handler": "config.get",
         "events": [
           {
             "http": {
-              "path": "services/{id}",
+              "path": "config/{id}",
               "method": "get",
               "cors": {
                 "origins": [
@@ -1167,16 +1167,16 @@
             }
           }
         ],
-        "name": "aws-540api-Services-dev-services_get_instance",
+        "name": "aws-540api-Config-dev-config_get_instance",
         "package": {},
         "vpc": {}
       },
-      "services_put": {
-        "handler": "services.put",
+      "config_put": {
+        "handler": "config.put",
         "events": [
           {
             "http": {
-              "path": "services/{id}",
+              "path": "config/{id}",
               "method": "put",
               "cors": {
                 "origins": [
@@ -1200,16 +1200,16 @@
             }
           }
         ],
-        "name": "aws-540api-Services-dev-services_put",
+        "name": "aws-540api-Config-dev-config_put",
         "package": {},
         "vpc": {}
       },
-      "services_patch": {
-        "handler": "services.patch",
+      "config_patch": {
+        "handler": "config.patch",
         "events": [
           {
             "http": {
-              "path": "services/{id}",
+              "path": "config/{id}",
               "method": "patch",
               "cors": {
                 "origins": [
@@ -1233,16 +1233,16 @@
             }
           }
         ],
-        "name": "aws-540api-Services-dev-services_patch",
+        "name": "aws-540api-Config-dev-config_patch",
         "package": {},
         "vpc": {}
       },
-      "services_delete": {
-        "handler": "services.delete",
+      "config_delete": {
+        "handler": "config.delete",
         "events": [
           {
             "http": {
-              "path": "services/{id}",
+              "path": "config/{id}",
               "method": "delete",
               "cors": {
                 "origins": [
@@ -1266,14 +1266,14 @@
             }
           }
         ],
-        "name": "aws-540api-Services-dev-services_delete",
+        "name": "aws-540api-Config-dev-config_delete",
         "package": {},
         "vpc": {}
       }
     },
     "resources": {
       "Resources": {
-        "Services": {
+        "config": {
           "Type": "AWS::DynamoDB::Table",
           "DeletionPolicy": "Retain",
           "Properties": {
@@ -1293,16 +1293,16 @@
               "ReadCapacityUnits": 1,
               "WriteCapacityUnits": 1
             },
-            "TableName": "Services"
+            "TableName": "Config"
           }
         }
       },
       "Outputs": {}
     },
-    "artifact": "/Users/nicholasrinaldi/www-540-api/Services/.serverless/aws-540api-Services.zip"
+    "artifact": "/Users/nicholasrinaldi/www-540-api/Config/.serverless/aws-540api-Config.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-540api-Services/dev/1497019150783-2017-06-09T14:39:10.783Z",
-    "artifact": "aws-540api-Services.zip"
+    "artifactDirectoryName": "serverless/aws-540api-Config/dev/1497019227792-2017-06-09T14:40:27.792Z",
+    "artifact": "aws-540api-Config.zip"
   }
 }

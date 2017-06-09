@@ -38,7 +38,6 @@ function ValidatePATCH(StrInput){
 
 // --- PUT --- //
 module.exports.post = (event, context, callback) => {
-  var response = {statusCode:10, body:JSON.stringify({"message":"No message was caught."}) }
   // Validating input
   var valid = ValidatePOST(event.body);
   if(valid){
@@ -52,6 +51,7 @@ module.exports.post = (event, context, callback) => {
           console.log("ERROR: " + JSON.stringify(error));
           response = { // Success message sent
             statusCode: 201,
+            headers: {"Access-Control-Allow-Origin": "*"},
             body: JSON.stringify({"message":"Project was successfully created."})
           }
           callback(null, response);
@@ -59,6 +59,7 @@ module.exports.post = (event, context, callback) => {
       }else{
         response = { // Already posted message sent
           statusCode: 400,
+          headers: {"Access-Control-Allow-Origin": "*"},
           body: JSON.stringify({"message":"Project " + JSON.parse(event.body).id + " already exists."})
         }
         callback(null, response);
@@ -67,6 +68,7 @@ module.exports.post = (event, context, callback) => {
   }else{
     response = { // Invalid input sent
       statusCode: 400,
+      headers: {"Access-Control-Allow-Origin": "*"},
       body: JSON.stringify({"message":"Invalid Input"})
     }
     callback(null, response);
@@ -81,6 +83,7 @@ module.exports.list = (event, context, callback) => {
   dynamoDb.scan(params, (error, result) => {
     response = { // There is no try, only do
       statusCode: 200,
+      headers: {"Access-Control-Allow-Origin": "*"},
       body: JSON.stringify(result.Items)
       }
     callback(null, response);
@@ -96,12 +99,14 @@ module.exports.get = (event, context, callback) => {
     if(result.Item == undefined) {
       response = { // Not ofund message sent
         statusCode: 404,
+        headers: {"Access-Control-Allow-Origin": "*"},
         body: JSON.stringify({"message":"Could not find Project " + event.pathParameters.id + "."})
       }
       callback(null, response);
     }else{
       response = { // Success, so the instance is returned
         statusCode: 200,
+        headers: {"Access-Control-Allow-Origin": "*"},
         body: JSON.stringify(result.Item)
       }
       callback(null, response);
@@ -125,12 +130,14 @@ module.exports.put = (event, context, callback) => {
         console.log("ERROR: " + JSON.stringify(error));
         response = { // Success message sent
           statusCode: 200,
+          headers: {"Access-Control-Allow-Origin": "*"},
           body: JSON.stringify({"message":"Project: " + event.pathParameters.id + " successfully replaced."})
         }
         callback(null, response)
       }else{
         response = { // Not found message sent
           statusCode: 404,
+          headers: {"Access-Control-Allow-Origin": "*"},
           body: JSON.stringify({"message": "Project " + event.pathParameters.id + " was not found."})
         }
         callback(null, response);
@@ -139,6 +146,7 @@ module.exports.put = (event, context, callback) => {
   }else{
     response = { // Invalid input message sent
       statusCode: 400,
+      headers: {"Access-Control-Allow-Origin": "*"},
       body: JSON.stringify({"message":"Invalid Input"})
     }
     callback(null, response);
@@ -175,12 +183,14 @@ module.exports.patch = (event, context, callback) => {
         dynamoDb.update(params, (error, result) => {});
         response = { // Success return message sent
           statusCode: 200,
+          headers: {"Access-Control-Allow-Origin": "*"},
           body: JSON.stringify({"message":"Project: " + event.pathParameters.id + " successfully patched."})
         }
         callback(null, response);
       }else{
         response = { // Not found return message sent
           statusCode: 404,
+          headers: {"Access-Control-Allow-Origin": "*"},
           body: JSON.stringify({"message": "Project " + event.pathParameters.id + " was not found."})
         }
         callback(null, response);
@@ -189,6 +199,7 @@ module.exports.patch = (event, context, callback) => {
   }else{ // Invalid input message sent
     response = {
       statusCode: 400,
+      headers: {"Access-Control-Allow-Origin": "*"},
       body: JSON.stringify({"message":"Invalid Input"})
     }
     callback(null, response);
@@ -207,6 +218,7 @@ module.exports.delete = (event, context, callback) => {
       dynamoDb.delete(params, (error, result) => {
         response = { // Success message sent
           statusCode: 200,
+          headers: {"Access-Control-Allow-Origin": "*"},
           body: JSON.stringify({"message": "Project: " + event.pathParameters.id + " successfully deleted."})
         }
         callback(null, response);
@@ -214,6 +226,7 @@ module.exports.delete = (event, context, callback) => {
     }else{
       response = { // Not found message sent
         statusCode: 404,
+        headers: {"Access-Control-Allow-Origin": "*"},
         body: JSON.stringify({"message": "Project " + event.pathParameters.id + " not found."})
       }
       callback(null, response);

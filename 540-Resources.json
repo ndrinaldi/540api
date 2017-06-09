@@ -41,9 +41,9 @@
     "image_path": "im/projects/av.png",
     "preview_path": "img/projects/av_preview.png",
     "title": "Acquisition Visibility API Modernization",
-    "header": "Wed APIs and Apps",
-    "type": "RESTful Data Platforms and Apps",
-    "description": "OSD analysts and leadership need accurate visibility to acquisition data to help them make the right decisions and ensure big dollar MDAP and MAIS programs are on budget, on schedule and meeting performance metrics. The Acquisition Visibility team at ARA is leading the charge of collecting, tagging, correlating and exposing important acquisition data.Collecting and mashing data from across multiple DoD silos(acquisition, budget, procurement), the team is cataloging and deploying reusable APIs to share important data resources across the Pentagon and deploying applications to give leaders the data they need to make decisions.",
+    "header": "RESTful Data Platform and Apps",
+    "type": "Wed APIs and Apps",
+    "description": "OSD analysts and leadership need accurate visibility to acquisition data to help them make the right decisions and ensure big dollar MDAP and MAIS programs are on budget, on schedule and meeting performance metrics. The Acquisition Visibility team at ARA is leading the charge of collecting, tagging, correlating and exposing important acquisition data. Collecting and mashing data from across multiple DoD silos (acquisition, budget, procurement), the team is cataloging and deploying reusable APIs to share important data resources across the Pentagon and deploying applications to give leaders the data they need to make decisions.",
     "quote": "540 is helping ARA define the overall API strategy and design while also developing and shipping data crawlers, data mashing APIs and visibility / visualization applications.",
     "notes": "Since most of the capabilities being deployed are private in nature, we cannot show you the catalog of private APIs or the applications being developed. But if you want to see a similar approach, check out our open project at Fed {API}, which is collecting, correlating and exposing public government data sets using super cool tech such MongoDB, Elasticsearch, and Neo4j.",
     "date": "April 2014",
@@ -59,10 +59,10 @@
     "project_type": "Our Projects",
     "image_path": "img/projects/clin.png",
     "preview_path": "img/projects/clin_preview.png",
-    "title": "Contract Line Item Wizard Tool",
+    "title": "Contract Line Item Wizard",
     "type": "Lightweight Angular App",
     "header": "Lightweight Angular App",
-    "description": "The Contract Line Item Wizard is a tool designed to provide \"just in time\" guidance and information (including references) to a contract writing professional on how best to structure their line item in support of PGI 204.71. The Contract Wizard will be a web - based tool that guides / assists users in following the rules for creating contract line items consistent with the type of requirement(supplies / equipment, services, etc.) and contract / pricing arrangement(firm fixed price, fixed - price incentive, cost - plus - fixed - fee, etc.).",
+    "description": "The Contract Line Item Wizard is a tool designed to provide \"just in time\" guidance and information (including references) to a contract writing professional on how best to structure their line item in support of PGI 204.71. The Contract Wizard will be a web-based tool that guides/assists users in following the rules for creating contract line items consistent with the type of requirement (supplies/equipment, services, etc.) and contract/pricing arrangement (firm-fixed price, fixed-price incentive, cost-plus-fixed-fee, etc.).",
     "quote": "540 leads the design and development of the Contract Wizard while working closely with our subject matter experts. We're using AngularJS and Amazon Web Services to build this resilient app.",
     "notes": "Currently still in private beta. Once it's public, a link will be posted.",
     "date": "July 2014",
@@ -79,8 +79,8 @@
     "title": "Product Service Code Lookup Tool",
     "type": "API and Angular App",
     "header": "API and Angular App",
-    "description": "This is a web app tool designed to help users find the right PSC code based upon a taxomony / mapping provided by the DPAP office. It also provides the mapping to NAICS and OMB Object Classes.",
-    "quote": "<strong>540 built this tool from the ground up with lightweight APIs and UI friendly drill-downs. We love aggregating data to help your business work smarter!",
+    "description": "This is a web app tool designed to help users find the right PSC code based upon a taxomony/mapping provided by the DPAP office. It also provides the mapping to NAICS and OMB Object Classes.",
+    "quote": "540 built this tool from the ground up with lightweight APIs and UI friendly drill-downs. We love aggregating data to help your business work smarter!",
     "notes": "You can view the PSC tool at www.psctool.us",
     "date": "Feb 2013",
     "client": "DPAP",
@@ -98,7 +98,7 @@
     "title": "FedAPI",
     "type": "Open Data Platform",
     "header": "API Platform",
-    "description": "Data indexing and API platform designed to accelerate your agency's Analytics, Common Operating Pictures, Applications and Data Sharing. FedAPI was designed to organize and inform your analysts, developers and integration parters about your data resources.Also dynamic and consistent APIs across data resources automatically generated when data is indexed.",
+    "description": "Data indexing and API platform designed to accelerate your agency's Analytics, Common Operating Pictures, Applications and Data Sharing. FedAPI was designed to organize and inform your analysts, developers and integration parters about your data resources. Also dynamic and consistent APIs across data resources automatically generated when data is indexed.",
     "quote": "Whether you call it a common operating picture, management report or dashboard, everyone visualizes data differently, often sharing common data resources. FedAPI focuses on indexing common data resources so you don't have to.",
     "notes": "You can start indexing data at www.fedapi.io",
     "date": "null",
@@ -141,7 +141,7 @@
     "client": "null",
     "category": "null",
     "relevant_paths": [{
-        "name": "Drug Reactions Explained (DRE) Website",
+        "name": "Drug Reactions Explained (DRE)",
         "path": "https://dre.540.co"},
        {"name": "GitHub Repo",
         "path": "https://github.com/540co/ads-bpa"}]
@@ -176,7 +176,7 @@
     "title": "Air Hound",
     "type": "Application",
     "header": "Application",
-    "description": "Air Hound is a lightweight application that gives you information on air quality in any location in the United States over time. The United States Environmental Protection Agency's Toxic Release Inventory feeds Air Hound information on the release of hazardous air pollutants identified in the Clean Air Act.Air Hound shows you the magnitude and trends of these releases over time in specific geographic areas.",
+    "description": "Air Hound is a lightweight application that gives you information on air quality in any location in the United States over time. The United States Environmental Protection Agency's Toxic Release Inventory feeds Air Hound information on the release of hazardous air pollutants identified in the Clean Air Act. Air Hound shows you the magnitude and trends of these releases over time in specific geographic areas.",
     "quote": "null",
     "notes": "null",
     "date": "null",
@@ -195,7 +195,7 @@
     "image_path": "img/projects/jbooks.png",
     "preview_path": "img/projects/jbooks-preview.png",
     "title": "DoD Justification Books",
-    "type": "Common Operating Data Repo",
+    "type": "Common Operating Data",
     "header": "Common Operating Data Repo",
     "description": "This repo contains an extract of the public DoD Procurement (P-1) and RDTE (R-1) justification book exhibits submitted by the US DoD Military Departments and Defense Agencies into multiple data formats to allow analysts / users to use their tool of choice when analyzing and/or merging with other data sources.",
     "quote": "null",
@@ -212,7 +212,7 @@
 
   "team_members": {
     "id": 0,
-    "image_path": "img/team/john.png",
+    "image_path": "../img/team/john.png",
     "name": "John Obrien",
     "position": "Founder",
     "member_path": "team/john.html",
@@ -227,7 +227,7 @@
       "University of Maryland College Park - MBA"],
     "qa": [{
         "question": "What was your first Job?",
-        "answer": "We have a great team. Everyone is passionate about our projects and our clients. The high quality people make 540 an awesome place to work!"},
+        "answer": "Building Big Red Firetrucks."},
        {"question": "What do you like about 540?",
         "answer": "We have a great team. Everyone is passionate about our projects and our clients. The high quality people make 540 an awesome place to work!"},
        {"question": "What do you do in your spare time?",
@@ -252,6 +252,7 @@
     "expertise": "#HTML5 #CSS #Design #UX/UI #JavaScript #ReactJS #AngularJS #Web_Development #Front_End #Getshitdone",
     "interests": "Design, Hacking, Learning, Traveling, Netflix Marathons and Cooking (especially the eating part).",
     "education": [
+      "Tulane University - Bachelors Degree in Psychology",
       "Art Institute of Washington - Advertising Design",
       "The Iron Yard - Front End Engineering"],
     "qa": [{
@@ -609,8 +610,8 @@
 
     "team_members": {
       "id": 15,
-      "image_path": "img/team/nick_rinaldi.png",
-      "name": ">Nicholas Rinaldi",
+      "image_path": "../img/team/nick_rinaldi.png",
+      "name": "Nicholas Rinaldi",
       "position": "Intern",
       "member_path": "team/nick_rinaldi.html",
       "twitter_path": "null",
@@ -839,6 +840,7 @@
     },
 
     "config": {
+      "id": 0,
       "apigeeRevokeUrl": "null",
       "baseBaasUrl": "null",
       "swaggerSpecUrl": "null",

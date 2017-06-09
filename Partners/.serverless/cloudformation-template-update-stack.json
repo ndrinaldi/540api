@@ -165,7 +165,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-540api-Partners/dev/1496762385961-2017-06-06T15:19:45.961Z/aws-540api-Partners.zip"
+          "S3Key": "serverless/aws-540api-Partners/dev/1497019070005-2017-06-09T14:37:50.005Z/aws-540api-Partners.zip"
         },
         "FunctionName": "aws-540api-Partners-dev-partners_post",
         "Handler": "partners.post",
@@ -184,14 +184,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "PartnersUnderscorepostLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg": {
+    "PartnersUnderscorepostLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "PartnersUnderscorepostLambdaFunction"
         },
-        "CodeSha256": "bAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg="
+        "CodeSha256": "GKVoD+Bf09hsexluembaGldUFm/D9NzKnY6/7AGRROE="
       }
     },
     "PartnersUnderscoregetLambdaFunction": {
@@ -201,7 +201,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-540api-Partners/dev/1496762385961-2017-06-06T15:19:45.961Z/aws-540api-Partners.zip"
+          "S3Key": "serverless/aws-540api-Partners/dev/1497019070005-2017-06-09T14:37:50.005Z/aws-540api-Partners.zip"
         },
         "FunctionName": "aws-540api-Partners-dev-partners_get",
         "Handler": "partners.list",
@@ -220,14 +220,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "PartnersUnderscoregetLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg": {
+    "PartnersUnderscoregetLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "PartnersUnderscoregetLambdaFunction"
         },
-        "CodeSha256": "bAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg="
+        "CodeSha256": "GKVoD+Bf09hsexluembaGldUFm/D9NzKnY6/7AGRROE="
       }
     },
     "PartnersUnderscoregetUnderscoreinstanceLambdaFunction": {
@@ -237,7 +237,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-540api-Partners/dev/1496762385961-2017-06-06T15:19:45.961Z/aws-540api-Partners.zip"
+          "S3Key": "serverless/aws-540api-Partners/dev/1497019070005-2017-06-09T14:37:50.005Z/aws-540api-Partners.zip"
         },
         "FunctionName": "aws-540api-Partners-dev-partners_get_instance",
         "Handler": "partners.get",
@@ -256,14 +256,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "PartnersUnderscoregetUnderscoreinstanceLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg": {
+    "PartnersUnderscoregetUnderscoreinstanceLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "PartnersUnderscoregetUnderscoreinstanceLambdaFunction"
         },
-        "CodeSha256": "bAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg="
+        "CodeSha256": "GKVoD+Bf09hsexluembaGldUFm/D9NzKnY6/7AGRROE="
       }
     },
     "PartnersUnderscoreputLambdaFunction": {
@@ -273,7 +273,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-540api-Partners/dev/1496762385961-2017-06-06T15:19:45.961Z/aws-540api-Partners.zip"
+          "S3Key": "serverless/aws-540api-Partners/dev/1497019070005-2017-06-09T14:37:50.005Z/aws-540api-Partners.zip"
         },
         "FunctionName": "aws-540api-Partners-dev-partners_put",
         "Handler": "partners.put",
@@ -292,14 +292,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "PartnersUnderscoreputLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg": {
+    "PartnersUnderscoreputLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "PartnersUnderscoreputLambdaFunction"
         },
-        "CodeSha256": "bAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg="
+        "CodeSha256": "GKVoD+Bf09hsexluembaGldUFm/D9NzKnY6/7AGRROE="
       }
     },
     "PartnersUnderscorepatchLambdaFunction": {
@@ -309,7 +309,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-540api-Partners/dev/1496762385961-2017-06-06T15:19:45.961Z/aws-540api-Partners.zip"
+          "S3Key": "serverless/aws-540api-Partners/dev/1497019070005-2017-06-09T14:37:50.005Z/aws-540api-Partners.zip"
         },
         "FunctionName": "aws-540api-Partners-dev-partners_patch",
         "Handler": "partners.patch",
@@ -328,14 +328,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "PartnersUnderscorepatchLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg": {
+    "PartnersUnderscorepatchLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "PartnersUnderscorepatchLambdaFunction"
         },
-        "CodeSha256": "bAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg="
+        "CodeSha256": "GKVoD+Bf09hsexluembaGldUFm/D9NzKnY6/7AGRROE="
       }
     },
     "PartnersUnderscoredeleteLambdaFunction": {
@@ -345,7 +345,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-540api-Partners/dev/1496762385961-2017-06-06T15:19:45.961Z/aws-540api-Partners.zip"
+          "S3Key": "serverless/aws-540api-Partners/dev/1497019070005-2017-06-09T14:37:50.005Z/aws-540api-Partners.zip"
         },
         "FunctionName": "aws-540api-Partners-dev-partners_delete",
         "Handler": "partners.delete",
@@ -364,14 +364,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "PartnersUnderscoredeleteLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg": {
+    "PartnersUnderscoredeleteLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "PartnersUnderscoredeleteLambdaFunction"
         },
-        "CodeSha256": "bAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg="
+        "CodeSha256": "GKVoD+Bf09hsexluembaGldUFm/D9NzKnY6/7AGRROE="
       }
     },
     "ApiGatewayRestApi": {
@@ -727,7 +727,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1496762385978": {
+    "ApiGatewayDeployment1497019070031": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -975,37 +975,37 @@
     "PartnersUnderscorepostLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "PartnersUnderscorepostLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg"
+        "Ref": "PartnersUnderscorepostLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE"
       }
     },
     "PartnersUnderscoregetLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "PartnersUnderscoregetLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg"
+        "Ref": "PartnersUnderscoregetLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE"
       }
     },
     "PartnersUnderscoregetUnderscoreinstanceLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "PartnersUnderscoregetUnderscoreinstanceLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg"
+        "Ref": "PartnersUnderscoregetUnderscoreinstanceLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE"
       }
     },
     "PartnersUnderscoreputLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "PartnersUnderscoreputLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg"
+        "Ref": "PartnersUnderscoreputLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE"
       }
     },
     "PartnersUnderscorepatchLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "PartnersUnderscorepatchLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg"
+        "Ref": "PartnersUnderscorepatchLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE"
       }
     },
     "PartnersUnderscoredeleteLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "PartnersUnderscoredeleteLambdaVersionbAt5KpAJeHD8h7VV7nuIKXpEM1HFnZvCjS0LyHYtPXg"
+        "Ref": "PartnersUnderscoredeleteLambdaVersionGKVoDBf09hsexluembaGldUFmD9NzKnY67AGRROE"
       }
     },
     "ServiceEndpoint": {

@@ -17,3 +17,6 @@ serverless deploy
 
 cd /Users/nicholasrinaldi/www-540-api/TeamMembers
 serverless deploy
+
+cd /Users/nicholasrinaldi/www-540-api/Config
+serverless deploy
