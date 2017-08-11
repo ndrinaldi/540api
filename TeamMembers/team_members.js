@@ -181,6 +181,9 @@ module.exports.patch = (event, context, callback) => {
         }
         // Updating the item in the DB
         dynamoDb.update(params, (error, result) => {});
+        if (error){
+          console.log(error);
+        }
         response = { // Success return message sent
           statusCode: 200,
           headers: {"Access-Control-Allow-Origin": "*"},
