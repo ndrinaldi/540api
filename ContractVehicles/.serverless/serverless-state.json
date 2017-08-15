@@ -193,7 +193,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1498496218909-2017-06-26T16:56:58.909Z/aws-540pi-ContractVehicles.zip"
+                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1502466814888-2017-08-11T15:53:34.888Z/aws-540pi-ContractVehicles.zip"
               },
               "FunctionName": "aws-540pi-ContractVehicles-dev-contract_vehicles_post",
               "Handler": "contract_vehicles.post",
@@ -212,14 +212,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ContractUnderscorevehiclesUnderscorepostLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE": {
+          "ContractUnderscorevehiclesUnderscorepostLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ContractUnderscorevehiclesUnderscorepostLambdaFunction"
               },
-              "CodeSha256": "qI47BDreDudAN2yDSovAgYYLqWFB+aqosk2/5V6q9BE="
+              "CodeSha256": "jEiArX0biwbPuicykGVbjJX3/XODWBx/AXyDvfyd9B4="
             }
           },
           "ContractUnderscorevehiclesUnderscoregetLambdaFunction": {
@@ -229,7 +229,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1498496218909-2017-06-26T16:56:58.909Z/aws-540pi-ContractVehicles.zip"
+                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1502466814888-2017-08-11T15:53:34.888Z/aws-540pi-ContractVehicles.zip"
               },
               "FunctionName": "aws-540pi-ContractVehicles-dev-contract_vehicles_get",
               "Handler": "contract_vehicles.list",
@@ -248,14 +248,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ContractUnderscorevehiclesUnderscoregetLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE": {
+          "ContractUnderscorevehiclesUnderscoregetLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ContractUnderscorevehiclesUnderscoregetLambdaFunction"
               },
-              "CodeSha256": "qI47BDreDudAN2yDSovAgYYLqWFB+aqosk2/5V6q9BE="
+              "CodeSha256": "jEiArX0biwbPuicykGVbjJX3/XODWBx/AXyDvfyd9B4="
             }
           },
           "ContractUnderscorevehiclesUnderscoregetUnderscoreinstanceLambdaFunction": {
@@ -265,7 +265,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1498496218909-2017-06-26T16:56:58.909Z/aws-540pi-ContractVehicles.zip"
+                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1502466814888-2017-08-11T15:53:34.888Z/aws-540pi-ContractVehicles.zip"
               },
               "FunctionName": "aws-540pi-ContractVehicles-dev-contract_vehicles_get_instance",
               "Handler": "contract_vehicles.get",
@@ -284,14 +284,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ContractUnderscorevehiclesUnderscoregetUnderscoreinstanceLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE": {
+          "ContractUnderscorevehiclesUnderscoregetUnderscoreinstanceLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ContractUnderscorevehiclesUnderscoregetUnderscoreinstanceLambdaFunction"
               },
-              "CodeSha256": "qI47BDreDudAN2yDSovAgYYLqWFB+aqosk2/5V6q9BE="
+              "CodeSha256": "jEiArX0biwbPuicykGVbjJX3/XODWBx/AXyDvfyd9B4="
             }
           },
           "ContractUnderscorevehiclesUnderscoreputLambdaFunction": {
@@ -301,7 +301,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1498496218909-2017-06-26T16:56:58.909Z/aws-540pi-ContractVehicles.zip"
+                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1502466814888-2017-08-11T15:53:34.888Z/aws-540pi-ContractVehicles.zip"
               },
               "FunctionName": "aws-540pi-ContractVehicles-dev-contract_vehicles_put",
               "Handler": "contract_vehicles.put",
@@ -320,14 +320,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ContractUnderscorevehiclesUnderscoreputLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE": {
+          "ContractUnderscorevehiclesUnderscoreputLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ContractUnderscorevehiclesUnderscoreputLambdaFunction"
               },
-              "CodeSha256": "qI47BDreDudAN2yDSovAgYYLqWFB+aqosk2/5V6q9BE="
+              "CodeSha256": "jEiArX0biwbPuicykGVbjJX3/XODWBx/AXyDvfyd9B4="
             }
           },
           "ContractUnderscorevehiclesUnderscorepatchLambdaFunction": {
@@ -337,7 +337,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1498496218909-2017-06-26T16:56:58.909Z/aws-540pi-ContractVehicles.zip"
+                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1502466814888-2017-08-11T15:53:34.888Z/aws-540pi-ContractVehicles.zip"
               },
               "FunctionName": "aws-540pi-ContractVehicles-dev-contract_vehicles_patch",
               "Handler": "contract_vehicles.patch",
@@ -356,14 +356,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ContractUnderscorevehiclesUnderscorepatchLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE": {
+          "ContractUnderscorevehiclesUnderscorepatchLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ContractUnderscorevehiclesUnderscorepatchLambdaFunction"
               },
-              "CodeSha256": "qI47BDreDudAN2yDSovAgYYLqWFB+aqosk2/5V6q9BE="
+              "CodeSha256": "jEiArX0biwbPuicykGVbjJX3/XODWBx/AXyDvfyd9B4="
             }
           },
           "ContractUnderscorevehiclesUnderscoredeleteLambdaFunction": {
@@ -373,7 +373,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1498496218909-2017-06-26T16:56:58.909Z/aws-540pi-ContractVehicles.zip"
+                "S3Key": "serverless/aws-540pi-ContractVehicles/dev/1502466814888-2017-08-11T15:53:34.888Z/aws-540pi-ContractVehicles.zip"
               },
               "FunctionName": "aws-540pi-ContractVehicles-dev-contract_vehicles_delete",
               "Handler": "contract_vehicles.delete",
@@ -392,14 +392,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ContractUnderscorevehiclesUnderscoredeleteLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE": {
+          "ContractUnderscorevehiclesUnderscoredeleteLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ContractUnderscorevehiclesUnderscoredeleteLambdaFunction"
               },
-              "CodeSha256": "qI47BDreDudAN2yDSovAgYYLqWFB+aqosk2/5V6q9BE="
+              "CodeSha256": "jEiArX0biwbPuicykGVbjJX3/XODWBx/AXyDvfyd9B4="
             }
           },
           "ApiGatewayRestApi": {
@@ -755,7 +755,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1498496218927": {
+          "ApiGatewayDeployment1502466814907": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -1003,37 +1003,37 @@
           "ContractUnderscorevehiclesUnderscorepostLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ContractUnderscorevehiclesUnderscorepostLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE"
+              "Ref": "ContractUnderscorevehiclesUnderscorepostLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4"
             }
           },
           "ContractUnderscorevehiclesUnderscoregetLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ContractUnderscorevehiclesUnderscoregetLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE"
+              "Ref": "ContractUnderscorevehiclesUnderscoregetLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4"
             }
           },
           "ContractUnderscorevehiclesUnderscoregetUnderscoreinstanceLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ContractUnderscorevehiclesUnderscoregetUnderscoreinstanceLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE"
+              "Ref": "ContractUnderscorevehiclesUnderscoregetUnderscoreinstanceLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4"
             }
           },
           "ContractUnderscorevehiclesUnderscoreputLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ContractUnderscorevehiclesUnderscoreputLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE"
+              "Ref": "ContractUnderscorevehiclesUnderscoreputLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4"
             }
           },
           "ContractUnderscorevehiclesUnderscorepatchLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ContractUnderscorevehiclesUnderscorepatchLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE"
+              "Ref": "ContractUnderscorevehiclesUnderscorepatchLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4"
             }
           },
           "ContractUnderscorevehiclesUnderscoredeleteLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ContractUnderscorevehiclesUnderscoredeleteLambdaVersionqI47BDreDudAN2yDSovAgYYLqWFBaqosk25V6q9BE"
+              "Ref": "ContractUnderscorevehiclesUnderscoredeleteLambdaVersionjEiArX0biwbPuicykGVbjJX3XODWBxAXyDvfyd9B4"
             }
           },
           "ServiceEndpoint": {
@@ -1302,7 +1302,7 @@
     "artifact": "/Users/nicholasrinaldi/www-540-api/ContractVehicles/.serverless/aws-540pi-ContractVehicles.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-540pi-ContractVehicles/dev/1498496218909-2017-06-26T16:56:58.909Z",
+    "artifactDirectoryName": "serverless/aws-540pi-ContractVehicles/dev/1502466814888-2017-08-11T15:53:34.888Z",
     "artifact": "aws-540pi-ContractVehicles.zip"
   }
 }
