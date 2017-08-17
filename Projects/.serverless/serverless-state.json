@@ -193,7 +193,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Projects/dev/1502466877059-2017-08-11T15:54:37.059Z/aws-540api-Projects.zip"
+                "S3Key": "serverless/aws-540api-Projects/dev/1502905686945-2017-08-16T17:48:06.945Z/aws-540api-Projects.zip"
               },
               "FunctionName": "aws-540api-Projects-dev-projects_post",
               "Handler": "projects.post",
@@ -212,14 +212,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ProjectsUnderscorepostLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU": {
+          "ProjectsUnderscorepostLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ProjectsUnderscorepostLambdaFunction"
               },
-              "CodeSha256": "4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU="
+              "CodeSha256": "GgMerSvdqoyxDvG/jJbas6aCA17j6Ut37bdcT224Jeg="
             }
           },
           "ProjectsUnderscoregetLambdaFunction": {
@@ -229,7 +229,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Projects/dev/1502466877059-2017-08-11T15:54:37.059Z/aws-540api-Projects.zip"
+                "S3Key": "serverless/aws-540api-Projects/dev/1502905686945-2017-08-16T17:48:06.945Z/aws-540api-Projects.zip"
               },
               "FunctionName": "aws-540api-Projects-dev-projects_get",
               "Handler": "projects.list",
@@ -248,14 +248,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ProjectsUnderscoregetLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU": {
+          "ProjectsUnderscoregetLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ProjectsUnderscoregetLambdaFunction"
               },
-              "CodeSha256": "4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU="
+              "CodeSha256": "GgMerSvdqoyxDvG/jJbas6aCA17j6Ut37bdcT224Jeg="
             }
           },
           "ProjectsUnderscoregetUnderscoreinstanceLambdaFunction": {
@@ -265,7 +265,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Projects/dev/1502466877059-2017-08-11T15:54:37.059Z/aws-540api-Projects.zip"
+                "S3Key": "serverless/aws-540api-Projects/dev/1502905686945-2017-08-16T17:48:06.945Z/aws-540api-Projects.zip"
               },
               "FunctionName": "aws-540api-Projects-dev-projects_get_instance",
               "Handler": "projects.get",
@@ -284,14 +284,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ProjectsUnderscoregetUnderscoreinstanceLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU": {
+          "ProjectsUnderscoregetUnderscoreinstanceLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ProjectsUnderscoregetUnderscoreinstanceLambdaFunction"
               },
-              "CodeSha256": "4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU="
+              "CodeSha256": "GgMerSvdqoyxDvG/jJbas6aCA17j6Ut37bdcT224Jeg="
             }
           },
           "ProjectsUnderscoreputLambdaFunction": {
@@ -301,7 +301,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Projects/dev/1502466877059-2017-08-11T15:54:37.059Z/aws-540api-Projects.zip"
+                "S3Key": "serverless/aws-540api-Projects/dev/1502905686945-2017-08-16T17:48:06.945Z/aws-540api-Projects.zip"
               },
               "FunctionName": "aws-540api-Projects-dev-projects_put",
               "Handler": "projects.put",
@@ -320,14 +320,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ProjectsUnderscoreputLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU": {
+          "ProjectsUnderscoreputLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ProjectsUnderscoreputLambdaFunction"
               },
-              "CodeSha256": "4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU="
+              "CodeSha256": "GgMerSvdqoyxDvG/jJbas6aCA17j6Ut37bdcT224Jeg="
             }
           },
           "ProjectsUnderscorepatchLambdaFunction": {
@@ -337,7 +337,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Projects/dev/1502466877059-2017-08-11T15:54:37.059Z/aws-540api-Projects.zip"
+                "S3Key": "serverless/aws-540api-Projects/dev/1502905686945-2017-08-16T17:48:06.945Z/aws-540api-Projects.zip"
               },
               "FunctionName": "aws-540api-Projects-dev-projects_patch",
               "Handler": "projects.patch",
@@ -356,14 +356,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ProjectsUnderscorepatchLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU": {
+          "ProjectsUnderscorepatchLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ProjectsUnderscorepatchLambdaFunction"
               },
-              "CodeSha256": "4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU="
+              "CodeSha256": "GgMerSvdqoyxDvG/jJbas6aCA17j6Ut37bdcT224Jeg="
             }
           },
           "ProjectsUnderscoredeleteLambdaFunction": {
@@ -373,7 +373,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Projects/dev/1502466877059-2017-08-11T15:54:37.059Z/aws-540api-Projects.zip"
+                "S3Key": "serverless/aws-540api-Projects/dev/1502905686945-2017-08-16T17:48:06.945Z/aws-540api-Projects.zip"
               },
               "FunctionName": "aws-540api-Projects-dev-projects_delete",
               "Handler": "projects.delete",
@@ -392,14 +392,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ProjectsUnderscoredeleteLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU": {
+          "ProjectsUnderscoredeleteLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ProjectsUnderscoredeleteLambdaFunction"
               },
-              "CodeSha256": "4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU="
+              "CodeSha256": "GgMerSvdqoyxDvG/jJbas6aCA17j6Ut37bdcT224Jeg="
             }
           },
           "ApiGatewayRestApi": {
@@ -755,7 +755,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1502466877078": {
+          "ApiGatewayDeployment1502905686969": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -1003,37 +1003,37 @@
           "ProjectsUnderscorepostLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ProjectsUnderscorepostLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU"
+              "Ref": "ProjectsUnderscorepostLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg"
             }
           },
           "ProjectsUnderscoregetLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ProjectsUnderscoregetLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU"
+              "Ref": "ProjectsUnderscoregetLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg"
             }
           },
           "ProjectsUnderscoregetUnderscoreinstanceLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ProjectsUnderscoregetUnderscoreinstanceLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU"
+              "Ref": "ProjectsUnderscoregetUnderscoreinstanceLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg"
             }
           },
           "ProjectsUnderscoreputLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ProjectsUnderscoreputLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU"
+              "Ref": "ProjectsUnderscoreputLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg"
             }
           },
           "ProjectsUnderscorepatchLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ProjectsUnderscorepatchLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU"
+              "Ref": "ProjectsUnderscorepatchLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg"
             }
           },
           "ProjectsUnderscoredeleteLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ProjectsUnderscoredeleteLambdaVersion4Ao4viKGnpfQhsW9IV3X9ACpbaMNsCqThJDwBKGXaKU"
+              "Ref": "ProjectsUnderscoredeleteLambdaVersionGgMerSvdqoyxDvGjJbas6aCA17j6Ut37bdcT224Jeg"
             }
           },
           "ServiceEndpoint": {
@@ -1302,7 +1302,7 @@
     "artifact": "/Users/nicholasrinaldi/www-540-api/Projects/.serverless/aws-540api-Projects.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-540api-Projects/dev/1502466877059-2017-08-11T15:54:37.059Z",
+    "artifactDirectoryName": "serverless/aws-540api-Projects/dev/1502905686945-2017-08-16T17:48:06.945Z",
     "artifact": "aws-540api-Projects.zip"
   }
 }

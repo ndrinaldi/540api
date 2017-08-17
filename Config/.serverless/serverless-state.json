@@ -193,7 +193,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Config/dev/1502466980067-2017-08-11T15:56:20.067Z/aws-540api-Config.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1502905844813-2017-08-16T17:50:44.813Z/aws-540api-Config.zip"
               },
               "FunctionName": "aws-540api-Config-dev-config_post",
               "Handler": "config.post",
@@ -212,14 +212,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ConfigUnderscorepostLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y": {
+          "ConfigUnderscorepostLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ConfigUnderscorepostLambdaFunction"
               },
-              "CodeSha256": "jM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrX/MB8Y="
+              "CodeSha256": "DPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E="
             }
           },
           "ConfigUnderscoregetLambdaFunction": {
@@ -229,7 +229,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Config/dev/1502466980067-2017-08-11T15:56:20.067Z/aws-540api-Config.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1502905844813-2017-08-16T17:50:44.813Z/aws-540api-Config.zip"
               },
               "FunctionName": "aws-540api-Config-dev-config_get",
               "Handler": "config.list",
@@ -248,14 +248,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ConfigUnderscoregetLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y": {
+          "ConfigUnderscoregetLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ConfigUnderscoregetLambdaFunction"
               },
-              "CodeSha256": "jM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrX/MB8Y="
+              "CodeSha256": "DPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E="
             }
           },
           "ConfigUnderscoregetUnderscoreinstanceLambdaFunction": {
@@ -265,7 +265,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Config/dev/1502466980067-2017-08-11T15:56:20.067Z/aws-540api-Config.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1502905844813-2017-08-16T17:50:44.813Z/aws-540api-Config.zip"
               },
               "FunctionName": "aws-540api-Config-dev-config_get_instance",
               "Handler": "config.get",
@@ -284,14 +284,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ConfigUnderscoregetUnderscoreinstanceLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y": {
+          "ConfigUnderscoregetUnderscoreinstanceLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ConfigUnderscoregetUnderscoreinstanceLambdaFunction"
               },
-              "CodeSha256": "jM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrX/MB8Y="
+              "CodeSha256": "DPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E="
             }
           },
           "ConfigUnderscoreputLambdaFunction": {
@@ -301,7 +301,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Config/dev/1502466980067-2017-08-11T15:56:20.067Z/aws-540api-Config.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1502905844813-2017-08-16T17:50:44.813Z/aws-540api-Config.zip"
               },
               "FunctionName": "aws-540api-Config-dev-config_put",
               "Handler": "config.put",
@@ -320,14 +320,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ConfigUnderscoreputLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y": {
+          "ConfigUnderscoreputLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ConfigUnderscoreputLambdaFunction"
               },
-              "CodeSha256": "jM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrX/MB8Y="
+              "CodeSha256": "DPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E="
             }
           },
           "ConfigUnderscorepatchLambdaFunction": {
@@ -337,7 +337,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Config/dev/1502466980067-2017-08-11T15:56:20.067Z/aws-540api-Config.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1502905844813-2017-08-16T17:50:44.813Z/aws-540api-Config.zip"
               },
               "FunctionName": "aws-540api-Config-dev-config_patch",
               "Handler": "config.patch",
@@ -356,14 +356,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ConfigUnderscorepatchLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y": {
+          "ConfigUnderscorepatchLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ConfigUnderscorepatchLambdaFunction"
               },
-              "CodeSha256": "jM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrX/MB8Y="
+              "CodeSha256": "DPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E="
             }
           },
           "ConfigUnderscoredeleteLambdaFunction": {
@@ -373,7 +373,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-540api-Config/dev/1502466980067-2017-08-11T15:56:20.067Z/aws-540api-Config.zip"
+                "S3Key": "serverless/aws-540api-Config/dev/1502905844813-2017-08-16T17:50:44.813Z/aws-540api-Config.zip"
               },
               "FunctionName": "aws-540api-Config-dev-config_delete",
               "Handler": "config.delete",
@@ -392,14 +392,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ConfigUnderscoredeleteLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y": {
+          "ConfigUnderscoredeleteLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ConfigUnderscoredeleteLambdaFunction"
               },
-              "CodeSha256": "jM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrX/MB8Y="
+              "CodeSha256": "DPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E="
             }
           },
           "ApiGatewayRestApi": {
@@ -755,7 +755,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1502466980085": {
+          "ApiGatewayDeployment1502905844834": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -1003,37 +1003,37 @@
           "ConfigUnderscorepostLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ConfigUnderscorepostLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y"
+              "Ref": "ConfigUnderscorepostLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E"
             }
           },
           "ConfigUnderscoregetLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ConfigUnderscoregetLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y"
+              "Ref": "ConfigUnderscoregetLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E"
             }
           },
           "ConfigUnderscoregetUnderscoreinstanceLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ConfigUnderscoregetUnderscoreinstanceLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y"
+              "Ref": "ConfigUnderscoregetUnderscoreinstanceLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E"
             }
           },
           "ConfigUnderscoreputLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ConfigUnderscoreputLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y"
+              "Ref": "ConfigUnderscoreputLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E"
             }
           },
           "ConfigUnderscorepatchLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ConfigUnderscorepatchLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y"
+              "Ref": "ConfigUnderscorepatchLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E"
             }
           },
           "ConfigUnderscoredeleteLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ConfigUnderscoredeleteLambdaVersionjM69GjVBJahQNM7kFGC3gC7LilfBvALYbKPrrXMB8Y"
+              "Ref": "ConfigUnderscoredeleteLambdaVersionDPQ4fgDSvlCqNPpwc30ZKhaTCOPpCU1FSRlDqJBic9E"
             }
           },
           "ServiceEndpoint": {
@@ -1302,7 +1302,7 @@
     "artifact": "/Users/nicholasrinaldi/www-540-api/Config/.serverless/aws-540api-Config.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-540api-Config/dev/1502466980067-2017-08-11T15:56:20.067Z",
+    "artifactDirectoryName": "serverless/aws-540api-Config/dev/1502905844813-2017-08-16T17:50:44.813Z",
     "artifact": "aws-540api-Config.zip"
   }
 }

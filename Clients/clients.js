@@ -172,17 +172,12 @@ module.exports.patch = (event, context, callback) => {
           ReturnValues:"UPDATED_NEW"
         }
         // Updating the item in the DB
-        dynamoDb.update(params, (error, result) => {});
-        if(error){
-          response = {
-            statusCode: 400,
-            body: error
-          }
-        }else{
-          response = { // Success return message sent
-            statusCode: 200,
-            body: JSON.stringify({"message":"Client: " + event.pathParameters.id + " successfully patched."})
-          }
+        console.log(params);
+        dynamoDb.update(params, (error, result) => {console.log(error)});
+        console.log(result);
+        response = { // Success return message sent
+          statusCode: 200,
+          body: JSON.stringify({"message":"Client: " + event.pathParameters.id + " successfully patched."})
         }
         callback(null, response);
       }else{
