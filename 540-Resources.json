@@ -46,12 +46,12 @@
     "description": "OSD analysts and leadership need accurate visibility to acquisition data to help them make the right decisions and ensure big dollar MDAP and MAIS programs are on budget, on schedule and meeting performance metrics. The Acquisition Visibility team at ARA is leading the charge of collecting, tagging, correlating and exposing important acquisition data. Collecting and mashing data from across multiple DoD silos (acquisition, budget, procurement), the team is cataloging and deploying reusable APIs to share important data resources across the Pentagon and deploying applications to give leaders the data they need to make decisions.",
     "quote": "540 is helping ARA define the overall API strategy and design while also developing and shipping data crawlers, data mashing APIs and visibility / visualization applications.",
     "notes": "Since most of the capabilities being deployed are private in nature, we cannot show you the catalog of private APIs or the applications being developed. But if you want to see a similar approach, check out our open project at Fed {API}, which is collecting, correlating and exposing public government data sets using super cool tech such MongoDB, Elasticsearch, and Neo4j.",
-    "date": "April 2014",
+    "project_date": "April 2014",
     "client": "OUSD AT&L",
     "category": "API Design/ App Development",
     "relevant_paths": [{
-      "name": "Fed {API}",
-      "path": "https://fedapi.io/www/"}]
+      "path_name": "Fed {API}",
+      "path_url": "https://fedapi.io/www/"}]
   },
 
   "projects": {
@@ -65,7 +65,7 @@
     "description": "The Contract Line Item Wizard is a tool designed to provide \"just in time\" guidance and information (including references) to a contract writing professional on how best to structure their line item in support of PGI 204.71. The Contract Wizard will be a web-based tool that guides/assists users in following the rules for creating contract line items consistent with the type of requirement (supplies/equipment, services, etc.) and contract/pricing arrangement (firm-fixed price, fixed-price incentive, cost-plus-fixed-fee, etc.).",
     "quote": "540 leads the design and development of the Contract Wizard while working closely with our subject matter experts. We're using AngularJS and Amazon Web Services to build this resilient app.",
     "notes": "Currently still in private beta. Once it's public, a link will be posted.",
-    "date": "July 2014",
+    "project_date": "July 2014",
     "client": "DPAP",
     "category": "Software Development",
     "relevant_paths": []
@@ -82,12 +82,12 @@
     "description": "This is a web app tool designed to help users find the right PSC code based upon a taxomony/mapping provided by the DPAP office. It also provides the mapping to NAICS and OMB Object Classes.",
     "quote": "540 built this tool from the ground up with lightweight APIs and UI friendly drill-downs. We love aggregating data to help your business work smarter!",
     "notes": "You can view the PSC tool at www.psctool.us",
-    "date": "Feb 2013",
+    "project_date": "Feb 2013",
     "client": "DPAP",
     "category": "Software Development | APIs",
     "relevant_paths": [{
-      "name": "www.psctool.us",
-      "path": "https://www.psctool.us/"}]
+      "path_name": "www.psctool.us",
+      "path_url": "https://www.psctool.us/"}]
   },
 
   "projects": {
@@ -101,12 +101,12 @@
     "description": "Data indexing and API platform designed to accelerate your agency's Analytics, Common Operating Pictures, Applications and Data Sharing. FedAPI was designed to organize and inform your analysts, developers and integration parters about your data resources. Also dynamic and consistent APIs across data resources automatically generated when data is indexed.",
     "quote": "Whether you call it a common operating picture, management report or dashboard, everyone visualizes data differently, often sharing common data resources. FedAPI focuses on indexing common data resources so you don't have to.",
     "notes": "You can start indexing data at www.fedapi.io",
-    "date": "null",
+    "project_date": "null",
     "client": "null",
     "category": "null",
     "relevant_paths": [{
-      "name": "www.fedapi.io",
-      "path": "https://fedapi.io/www/"}]
+      "path_name": "www.fedapi.io",
+      "path_url": "https://fedapi.io/www/"}]
   },
 
   "projects": {
@@ -120,7 +120,7 @@
     "description": "More to come...please check back another time for more info.",
     "quote": "null",
     "notes": "null",
-    "date": "null",
+    "project_date": "null",
     "client": "null",
     "category": "null",
     "relevant_paths": []
@@ -137,14 +137,14 @@
     "description": "Drug Reactions Explained (DRE) provides clear definitions to complex medical terms used to describe the adverse reactions patients have experienced when taking certain drugs (18F Agile BPA Development Prototype)",
     "quote": "null",
     "notes": "null",
-    "date": "null",
+    "project_date": "null",
     "client": "null",
     "category": "null",
     "relevant_paths": [{
-        "name": "Drug Reactions Explained (DRE)",
-        "path": "https://dre.540.co"},
-       {"name": "GitHub Repo",
-        "path": "https://github.com/540co/ads-bpa"}]
+        "path_name": "Drug Reactions Explained (DRE)",
+        "path_url": "https://dre.540.co"},
+       {"path_name": "GitHub Repo",
+        "path_url": "https://github.com/540co/ads-bpa"}]
   },
 
   "projects": {
@@ -158,14 +158,14 @@
     "description": "Govicons is a icon font and CSS toolkit with 80 government themed icons, for easy scalable vector graphics on projects that needs government based icons. Govicons is created and maintained by 540.",
     "quote": "null",
     "notes": "null",
-    "date": "null",
+    "project_date": "null",
     "client": "null",
     "category": "null",
     "relevant_paths": [{
-        "name": "Govicons Website",
-        "path": "http://govicons.io"},
-       {"name": "GitHub Repo",
-        "path": "https://github.com/540co/govicons"}]
+        "path_name": "Govicons Website",
+        "path_url": "http://govicons.io"},
+       {"path_name": "GitHub Repo",
+        "path_url": "https://github.com/540co/govicons"}]
   },
 
   "projects": {
@@ -179,14 +179,14 @@
     "description": "Air Hound is a lightweight application that gives you information on air quality in any location in the United States over time. The United States Environmental Protection Agency's Toxic Release Inventory feeds Air Hound information on the release of hazardous air pollutants identified in the Clean Air Act. Air Hound shows you the magnitude and trends of these releases over time in specific geographic areas.",
     "quote": "null",
     "notes": "null",
-    "date": "null",
+    "project_date": "null",
     "client": "null",
     "category": "null",
     "relevant_paths": [{
-        "name": "Air Hound Website",
-        "path": "http://airhound.540.co"},
-       {"name": "GitHub Repo",
-        "path": "https://github.com/540co/epa-rfi"}]
+        "path_name": "Air Hound Website",
+        "path_url": "http://airhound.540.co"},
+       {"path_name": "GitHub Repo",
+        "path_url": "https://github.com/540co/epa-rfi"}]
   },
 
   "projects": {
@@ -200,20 +200,20 @@
     "description": "This repo contains an extract of the public DoD Procurement (P-1) and RDTE (R-1) justification book exhibits submitted by the US DoD Military Departments and Defense Agencies into multiple data formats to allow analysts / users to use their tool of choice when analyzing and/or merging with other data sources.",
     "quote": "null",
     "notes": "null",
-    "date": "null",
+    "project_date": "null",
     "client": "null",
     "category": "null",
     "relevant_paths": [{
-        "name": "jbooks Website",
-        "path": "https://jbooks.fedapi.io/"},
-       {"name": "GitHub Repo",
-        "path": "https://github.com/540co/dod-president-budget-procurement-rdte-data"}]
+        "path_name": "jbooks Website",
+        "path_url": "https://jbooks.fedapi.io/"},
+       {"path_name": "GitHub Repo",
+        "path_url": "https://github.com/540co/dod-president-budget-procurement-rdte-data"}]
   },
 
   "team_members": {
     "id": 0,
     "image_path": "../img/team/john.png",
-    "name": "John Obrien",
+    "member_name": "John Obrien",
     "position": "Founder",
     "member_path": "team/john.html",
     "twitter_path": "https://twitter.com/jobrieniii",
@@ -271,7 +271,7 @@
   "team_members": {
     "id": 2,
     "image_path": "img/team/ben.png",
-    "name": "Ben Campbell",
+    "memeber_name": "Ben Campbell",
     "position": "Application Developer",
     "member_path": "team/ben.html",
     "twitter_path": "null",
@@ -297,7 +297,7 @@
   "team_members": {
     "id": 3,
     "image_path": "img/team/chris-whitten.jpg",
-    "name": "Chris Whitten",
+    "memeber_name": "Chris Whitten",
     "position": "Solutions Architect",
     "member_path": "team/chris-whitten.html",
     "twitter_path": "null",
@@ -323,7 +323,7 @@
   "team_members": {
     "id": 4,
     "image_path": "img/team/chris2.png",
-    "name": "Christopher Bock",
+    "memeber_name": "Christopher Bock",
     "position": "Chief Operating Officer",
     "member_path": "team/chris.html",
     "twitter_path": "https://twitter.com/pcbock/",
@@ -349,7 +349,7 @@
   "team_members": {
     "id": 5,
     "image_path": "img/team/claudia.png",
-    "name": "Claudia DeCarlo",
+    "memeber_name": "Claudia DeCarlo",
     "position": "Chief Customer Experience Officer",
     "member_path": "team/claudia.html",
     "twitter_path": "https://twitter.com/540claudia/",
@@ -375,7 +375,7 @@
   "team_members": {
     "id": 6,
     "image_path": "img/team/cullen.png",
-    "name": "Cullen Kirkpatrick",
+    "memeber_name": "Cullen Kirkpatrick",
     "position": "Front End Developer",
     "member_path": "team/cullen.html",
     "twitter_path": "https://twitter.com/CullenKirkpatrk",
@@ -401,7 +401,7 @@
     "team_members": {
       "id": 7,
       "image_path": "img/team/don.jpg",
-      "name": "Don Brinker",
+      "memeber_name": "Don Brinker",
       "position": "Development Lead",
       "member_path": "team/don.html",
       "twitter_path": "null",
@@ -455,7 +455,7 @@
     "team_members": {
       "id": 9,
       "image_path": "img/team/jeremy-altman.png",
-      "name": "Jeremy Altman",
+      "memeber_name": "Jeremy Altman",
       "position": "Solutions Architect",
       "member_path": "team/jeremy-altman.html",
       "twitter_path": "null",
@@ -481,7 +481,7 @@
     "team_members": {
       "id": 10,
       "image_path": "img/team/jeremy-lundstrom.png",
-      "name": "Jeremy Lundstrom",
+      "memeber_name": "Jeremy Lundstrom",
       "position": "Developer",
       "member_path": "team/jeremy-lundstrom.html",
       "twitter_path": "https://twitter.com/lundstjb",
@@ -507,7 +507,7 @@
     "team_members": {
       "id": 11,
       "image_path": "img/team/jon-minter.png",
-      "name": "Jon Minter",
+      "memeber_name": "Jon Minter",
       "position": "Senior Developer",
       "member_path": "team/jon.html",
       "twitter_path": "null",
@@ -533,7 +533,7 @@
     "team_members": {
       "id": 12,
       "image_path": "img/team/josh.jpg",
-      "name": "Josh Harris",
+      "memeber_name": "Josh Harris",
       "position": "Solutions Engineer",
       "member_path": "team/josh.html",
       "twitter_path": "null",
@@ -559,7 +559,7 @@
     "team_members": {
       "id": 13,
       "image_path": "img/team/linz.jpg",
-      "name": "Lindsey Rothschild",
+      "memeber_name": "Lindsey Rothschild",
       "position": "Office Manager and Operations Guru",
       "member_path": "team/lindsey.html",
       "twitter_path": "null",
@@ -585,7 +585,7 @@
     "team_members": {
       "id": 14,
       "image_path": "img/team/mark.jpg",
-      "name": "Mark Ostrander",
+      "memeber_name": "Mark Ostrander",
       "position": "Front End Developer",
       "member_path": "team/mark.html",
       "twitter_path": "https://twitter.com/mark_ostrander",
@@ -611,7 +611,7 @@
     "team_members": {
       "id": 15,
       "image_path": "../img/team/nick_rinaldi.png",
-      "name": "Nicholas Rinaldi",
+      "memeber_name": "Nicholas Rinaldi",
       "position": "Intern",
       "member_path": "team/nick_rinaldi.html",
       "twitter_path": "null",
@@ -637,7 +637,7 @@
     "team_members": {
       "id": 16,
       "image_path": "img/team/patrick.png",
-      "name": "Patrick Knowlan",
+      "memeber_name": "Patrick Knowlan",
       "position": "Data Engineer",
       "member_path": "team/patrick.html",
       "twitter_path": "https://twitter.com/patricknowlan",
@@ -663,7 +663,7 @@
     "team_members": {
       "id": 17,
       "image_path": "img/team/sean.png",
-      "name": "Sean Placchetti",
+      "memeber_name": "Sean Placchetti",
       "position": "Solutions Engineer",
       "member_path": "team/sean.html",
       "twitter_path": "https://twitter.com/seanplacchetti",
@@ -691,7 +691,7 @@
     "team_members": {
       "id": 18,
       "image_path": "img/team/sunil.png",
-      "name": "Sunil Thodupunuri",
+      "memeber_name": "Sunil Thodupunuri",
       "position": "Solutions Architect",
       "member_path": "team/sunil.html",
       "twitter_path": "https://twitter.com/540co/",
@@ -717,7 +717,7 @@
     "team_members": {
       "id": 19,
       "image_path": "img/team/trey.png",
-      "name": "Trey White",
+      "memeber_name": "Trey White",
       "position": "Chief Technology Officer",
       "member_path": "team/trey.html",
       "twitter_path": "https://twitter.com/treywhite",
@@ -743,55 +743,55 @@
     "clients": {
       "id": 0,
       "icon_path": "img/clients/atl.png",
-      "name": "AT&L",
+      "client_name": "AT&L",
       "client_path": "http://www.acq.osd.mil/"
     },
 
     "clients": {
       "id": 1,
       "icon_path": "img/clients/dpap.gif",
-      "name": "DPAP",
+      "client_name": "DPAP",
       "client_path": "http://www.acq.osd.mil/dpap/"
     },
 
     "clients": {
       "id": 2,
       "icon_path": "img/clients/dpap.gif",
-      "name": "DOD",
+      "client_name": "DOD",
       "client_path": "http://www.defense.gov/"
     },
 
     "clients": {
       "id": 3,
       "icon_path": "img/clients/army.png",
-      "name": "ARMY",
+      "client_name": "ARMY",
       "client_path": "http://www.army.mil/"
     },
 
     "clients": {
       "id": 4,
       "icon_path": "img/clients/dla.png",
-      "name": "DLA",
+      "client_name": "DLA",
       "client_path": "http://www.dla.mil/Pages/default.aspx"
     },
 
     "clients": {
       "id": 5,
       "icon_path": "img/clients/nawah.png",
-      "name": "NAWAH",
+      "client_name": "NAWAH",
       "client_path": "http://www.nawah.com/en/"
     },
 
     "contract_vehicles": {
       "id": 0,
-      "name": "VA Advisor",
+      "contract_name": "VA Advisor",
       "description": "VA Agile Delivery of VA Imminent Strategic and Operational Requirements (ADVISOR) contract. This 5-year multi-award IDIQ is designed to assist VA programs execute cross-agency initiatives and achieve strategic priorities that ultimately improve outcomes for VA customers.",
       "contract_path": "null"
     },
 
     "contract_vehicles": {
       "id": 1,
-      "name": "ATSS",
+      "contract_name": "ATSS",
       "description": "Providing OUSD(AT&L)(ARA) Property and Equipment (P&E) Policy Office with technical and management to support the overall goals of DoD financial transparency. Assisting the Department of Defense to improve accountability practices, increase auditability, and guide reporting practices and procedures.",
       "contract_path": "null"
     },
@@ -799,28 +799,28 @@
     "partners": {
       "id": 0,
       "icon_path": "img/partners/aws.png",
-      "name": "Amazon Webservices",
+      "contract_name": "Amazon Webservices",
       "partner_path": "https://aws.amazon.com/"
     },
 
     "partners": {
       "id": 1,
       "icon_path": "img/partners/elastic.png",
-      "name": "Elastic",
+      "contract_name": "Elastic",
       "partner_path": "https://www.elastic.co/"
     },
 
     "partners": {
       "id": 2,
       "icon_path": "img/partners/docker.jpg",
-      "name": "Docker",
+      "contract_name": "Docker",
       "partner_path": "https://www.docker.com/"
     },
 
     "partners": {
       "id": 3,
       "icon_path": "img/partners/mongo.png",
-      "name": "MongoDB",
+      "contract_name": "MongoDB",
       "partner_path": "https://www.mongodb.com/"
     },
 

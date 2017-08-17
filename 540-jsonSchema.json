@@ -16,24 +16,24 @@
     "image_path": "string",
     "preview_path": "string",
     "title": "string",
-    "type": "string",
+    "project_type": "string",
     "header": "string",
     "description": "string",
     "quote": "string",
     "notes": "string",
-    "date": "string",
+    "project_date": "string",
     "client": "string",
     "category": "string",
     "relevant_paths": [{
-      "name": "string",
-      "path": "string"
+      "path_name": "string",
+      "path_url": "string"
     }],
   },
 
   "team_members": {
     "id": 0,
     "image_path": "string",
-    "name": "string",
+    "member_name": "string",
     "position": "string",
     "member_path": "string",
     "twitter_path": "string",
@@ -52,13 +52,13 @@
   "clients": {
     "id": 0,
     "icon_path": "string",
-    "name": "string",
+    "client_name": "string",
     "client_path": "string",
   },
 
   "contract_vehicles": {
     "id": 0,
-    "name": "string",
+    "contract_name": "string",
     "description": "string",
     "contract_path": "string",
   },
@@ -66,7 +66,7 @@
   "partners": {
     "id": 0,
     "icon_path": "string",
-    "name": "string",
+    "partners_name": "string",
     "partner_path": "string",
   },
 
